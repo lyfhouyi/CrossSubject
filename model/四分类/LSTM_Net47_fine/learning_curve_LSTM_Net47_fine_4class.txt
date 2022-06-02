@@ -1,0 +1,4746 @@
+LSTM 四分类器_微调（上、下、左、右）跨被试
+------------------
+cw 的训练情况：
++++++++++ size = 0
+test_accu_best = 40.000%
++++++++++ size = 3
+[1] loss: 0.816 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 40.000%
+[11] loss: 0.562 ,68.792%
+train_accu_best = 33.333%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 3 训练完成
++++++++++ size = 7
+[1] loss: 0.237 ,100.000%
+train_accu_best = 42.857%
+test_accu_best = 35.000%
+[21] loss: 0.327 ,138.045%
+train_accu_best = 57.143%
+test_accu_best = 45.000%
+[81] loss: 0.234 ,98.590%
+train_accu_best = 42.857%
+test_accu_best = 50.000%
+[191] loss: 0.219 ,92.220%
+train_accu_best = 42.857%
+test_accu_best = 55.000%
+[481] loss: 0.110 ,46.550%
+train_accu_best = 42.857%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 7 训练完成
++++++++++ size = 11
+[1] loss: 0.185 ,100.000%
+train_accu_best = 45.455%
+test_accu_best = 50.000%
+[81] loss: 0.160 ,86.342%
+train_accu_best = 36.364%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 11 训练完成
++++++++++ size = 14
+[1] loss: 0.160 ,100.000%
+train_accu_best = 42.857%
+test_accu_best = 45.000%
+[51] loss: 0.148 ,92.620%
+train_accu_best = 35.714%
+test_accu_best = 50.000%
+[71] loss: 0.162 ,101.396%
+train_accu_best = 35.714%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 14 训练完成
++++++++++ size = 18
+[1] loss: 0.134 ,100.000%
+train_accu_best = 16.667%
+test_accu_best = 35.000%
+[31] loss: 0.143 ,106.868%
+train_accu_best = 27.778%
+test_accu_best = 40.000%
+[81] loss: 0.125 ,93.222%
+train_accu_best = 22.222%
+test_accu_best = 45.000%
+[121] loss: 0.099 ,73.805%
+train_accu_best = 27.778%
+test_accu_best = 50.000%
+[171] loss: 0.120 ,89.767%
+train_accu_best = 27.778%
+test_accu_best = 60.000%
+[441] loss: 0.096 ,72.093%
+train_accu_best = 22.222%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 18 训练完成
++++++++++ size = 22
+[1] loss: 0.093 ,100.000%
+train_accu_best = 27.273%
+test_accu_best = 40.000%
+[31] loss: 0.083 ,88.782%
+train_accu_best = 36.364%
+test_accu_best = 45.000%
+[71] loss: 0.090 ,96.122%
+train_accu_best = 40.909%
+test_accu_best = 50.000%
+[101] loss: 0.085 ,91.625%
+train_accu_best = 31.818%
+test_accu_best = 55.000%
+[391] loss: 0.077 ,82.642%
+train_accu_best = 40.909%
+test_accu_best = 60.000%
+[551] loss: 0.072 ,77.624%
+train_accu_best = 31.818%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 22 训练完成
++++++++++ size = 25
+[1] loss: 0.085 ,100.000%
+train_accu_best = 32.000%
+test_accu_best = 35.000%
+[31] loss: 0.085 ,100.046%
+train_accu_best = 36.000%
+test_accu_best = 45.000%
+[81] loss: 0.080 ,93.325%
+train_accu_best = 28.000%
+test_accu_best = 50.000%
+[231] loss: 0.077 ,89.765%
+train_accu_best = 28.000%
+test_accu_best = 55.000%
+[351] loss: 0.064 ,75.475%
+train_accu_best = 32.000%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 25 训练完成
++++++++++ size = 29
+[1] loss: 0.076 ,100.000%
+train_accu_best = 10.345%
+test_accu_best = 45.000%
+[21] loss: 0.084 ,110.359%
+train_accu_best = 20.690%
+test_accu_best = 55.000%
+[191] loss: 0.070 ,91.244%
+train_accu_best = 20.690%
+test_accu_best = 60.000%
+[731] loss: 0.057 ,74.061%
+train_accu_best = 31.034%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 29 训练完成
++++++++++ size = 33
+[1] loss: 0.160 ,100.000%
+train_accu_best = 18.182%
+test_accu_best = 30.000%
+[11] loss: 0.170 ,105.691%
+train_accu_best = 12.121%
+test_accu_best = 50.000%
+[101] loss: 0.142 ,88.223%
+train_accu_best = 24.242%
+test_accu_best = 55.000%
+[261] loss: 0.117 ,72.797%
+train_accu_best = 36.364%
+test_accu_best = 60.000%
+[551] loss: 0.078 ,48.667%
+train_accu_best = 24.242%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 33 训练完成
++++++++++ size = 36
+[1] loss: 0.132 ,100.000%
+train_accu_best = 27.778%
+test_accu_best = 35.000%
+[11] loss: 0.095 ,72.035%
+train_accu_best = 27.778%
+test_accu_best = 40.000%
+[81] loss: 0.136 ,102.439%
+train_accu_best = 22.222%
+test_accu_best = 45.000%
+[91] loss: 0.122 ,92.124%
+train_accu_best = 33.333%
+test_accu_best = 50.000%
+[151] loss: 0.134 ,100.843%
+train_accu_best = 22.222%
+test_accu_best = 55.000%
+[331] loss: 0.121 ,91.632%
+train_accu_best = 22.222%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 36 训练完成
++++++++++ size = 40
+[1] loss: 0.107 ,100.000%
+train_accu_best = 25.000%
+test_accu_best = 40.000%
+[31] loss: 0.127 ,117.938%
+train_accu_best = 22.500%
+test_accu_best = 45.000%
+[51] loss: 0.134 ,124.786%
+train_accu_best = 25.000%
+test_accu_best = 55.000%
+[181] loss: 0.106 ,98.400%
+train_accu_best = 20.000%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 40 训练完成
++++++++++ size = 44
+[1] loss: 0.109 ,100.000%
+train_accu_best = 25.000%
+test_accu_best = 30.000%
+[11] loss: 0.107 ,98.315%
+train_accu_best = 31.818%
+test_accu_best = 35.000%
+[21] loss: 0.107 ,97.624%
+train_accu_best = 18.182%
+test_accu_best = 40.000%
+[51] loss: 0.106 ,96.579%
+train_accu_best = 22.727%
+test_accu_best = 55.000%
+[361] loss: 0.087 ,79.632%
+train_accu_best = 25.000%
+test_accu_best = 60.000%
+[621] loss: 0.073 ,66.766%
+train_accu_best = 29.545%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 44 训练完成
++++++++++ size = 47
+[1] loss: 0.097 ,100.000%
+train_accu_best = 27.660%
+test_accu_best = 45.000%
+[61] loss: 0.104 ,106.937%
+train_accu_best = 23.404%
+test_accu_best = 50.000%
+[211] loss: 0.089 ,91.846%
+train_accu_best = 23.404%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 47 训练完成
++++++++++ size = 51
+[1] loss: 0.105 ,100.000%
+train_accu_best = 29.412%
+test_accu_best = 45.000%
+[61] loss: 0.084 ,79.667%
+train_accu_best = 21.569%
+test_accu_best = 55.000%
+[151] loss: 0.084 ,79.679%
+train_accu_best = 29.412%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 51 训练完成
++++++++++ size = 55
+[1] loss: 0.085 ,100.000%
+train_accu_best = 29.091%
+test_accu_best = 40.000%
+[21] loss: 0.095 ,111.801%
+train_accu_best = 21.818%
+test_accu_best = 50.000%
+[71] loss: 0.086 ,101.302%
+train_accu_best = 20.000%
+test_accu_best = 55.000%
+[251] loss: 0.074 ,87.369%
+train_accu_best = 14.545%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 55 训练完成
++++++++++ size = 58
+[1] loss: 0.081 ,100.000%
+train_accu_best = 24.138%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 58 训练完成
++++++++++ size = 62
+[1] loss: 0.083 ,100.000%
+train_accu_best = 24.194%
+test_accu_best = 50.000%
+[171] loss: 0.062 ,74.829%
+train_accu_best = 20.968%
+test_accu_best = 55.000%
+[221] loss: 0.068 ,81.026%
+train_accu_best = 24.194%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 62 训练完成
++++++++++ size = 66
+[1] loss: 0.113 ,100.000%
+train_accu_best = 18.182%
+test_accu_best = 40.000%
+[41] loss: 0.089 ,78.332%
+train_accu_best = 24.242%
+test_accu_best = 45.000%
+[81] loss: 0.085 ,75.332%
+train_accu_best = 24.242%
+test_accu_best = 50.000%
+[131] loss: 0.093 ,82.385%
+train_accu_best = 30.303%
+test_accu_best = 55.000%
+[421] loss: 0.075 ,66.034%
+train_accu_best = 18.182%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 66 训练完成
++++++++++ size = 69
+[1] loss: 0.100 ,100.000%
+train_accu_best = 15.942%
+test_accu_best = 30.000%
+[11] loss: 0.094 ,94.254%
+train_accu_best = 28.986%
+test_accu_best = 40.000%
+[61] loss: 0.089 ,89.085%
+train_accu_best = 18.841%
+test_accu_best = 45.000%
+[101] loss: 0.093 ,92.552%
+train_accu_best = 21.739%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 69 训练完成
++++++++++ size = 73
+[1] loss: 0.100 ,100.000%
+train_accu_best = 19.178%
+test_accu_best = 50.000%
+[21] loss: 0.096 ,95.759%
+train_accu_best = 16.438%
+test_accu_best = 55.000%
+[281] loss: 0.073 ,72.658%
+train_accu_best = 20.548%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 73 训练完成
++++++++++ size = 77
+[1] loss: 0.089 ,100.000%
+train_accu_best = 18.182%
+test_accu_best = 30.000%
+[11] loss: 0.098 ,109.154%
+train_accu_best = 19.481%
+test_accu_best = 40.000%
+[21] loss: 0.086 ,96.103%
+train_accu_best = 22.078%
+test_accu_best = 50.000%
+[131] loss: 0.081 ,90.850%
+train_accu_best = 22.078%
+test_accu_best = 60.000%
+[441] loss: 0.065 ,73.210%
+train_accu_best = 22.078%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 77 训练完成
++++++++++ size = 80
+[1] loss: 0.097 ,100.000%
+train_accu_best = 18.750%
+test_accu_best = 30.000%
+[11] loss: 0.086 ,88.966%
+train_accu_best = 20.000%
+test_accu_best = 40.000%
+[81] loss: 0.088 ,91.209%
+train_accu_best = 20.000%
+test_accu_best = 45.000%
+[91] loss: 0.085 ,87.335%
+train_accu_best = 18.750%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 80 训练完成
++++++++++ size = 84
+[1] loss: 0.095 ,100.000%
+train_accu_best = 20.238%
+test_accu_best = 30.000%
+[11] loss: 0.086 ,90.007%
+train_accu_best = 25.000%
+test_accu_best = 45.000%
+[81] loss: 0.080 ,83.808%
+train_accu_best = 23.810%
+test_accu_best = 55.000%
+[141] loss: 0.073 ,76.934%
+train_accu_best = 26.190%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 84 训练完成
++++++++++ size = 88
+[1] loss: 0.083 ,100.000%
+train_accu_best = 19.318%
+test_accu_best = 30.000%
+[11] loss: 0.084 ,101.846%
+train_accu_best = 20.455%
+test_accu_best = 40.000%
+[31] loss: 0.081 ,97.895%
+train_accu_best = 18.182%
+test_accu_best = 45.000%
+[51] loss: 0.076 ,91.736%
+train_accu_best = 19.318%
+test_accu_best = 50.000%
+[121] loss: 0.071 ,85.684%
+train_accu_best = 17.045%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 88 训练完成
++++++++++ size = 91
+[1] loss: 0.075 ,100.000%
+train_accu_best = 23.077%
+test_accu_best = 40.000%
+[11] loss: 0.076 ,101.244%
+train_accu_best = 18.681%
+test_accu_best = 45.000%
+[71] loss: 0.068 ,90.498%
+train_accu_best = 20.879%
+test_accu_best = 50.000%
+[101] loss: 0.071 ,94.113%
+train_accu_best = 20.879%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 91 训练完成
++++++++++ size = 95
+[1] loss: 0.084 ,100.000%
+train_accu_best = 20.000%
+test_accu_best = 35.000%
+[31] loss: 0.072 ,86.121%
+train_accu_best = 22.105%
+test_accu_best = 45.000%
+[51] loss: 0.069 ,83.107%
+train_accu_best = 27.368%
+test_accu_best = 50.000%
+[121] loss: 0.069 ,82.603%
+train_accu_best = 20.000%
+test_accu_best = 55.000%
+[201] loss: 0.063 ,75.416%
+train_accu_best = 18.947%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 95 训练完成
++++++++++ size = 99
+[1] loss: 0.109 ,100.000%
+train_accu_best = 23.232%
+test_accu_best = 45.000%
+[141] loss: 0.080 ,73.953%
+train_accu_best = 22.222%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 99 训练完成
++++++++++ size = 102
+[1] loss: 0.095 ,100.000%
+train_accu_best = 22.549%
+test_accu_best = 50.000%
+[121] loss: 0.080 ,84.432%
+train_accu_best = 24.510%
+test_accu_best = 55.000%
+[201] loss: 0.074 ,77.696%
+train_accu_best = 17.647%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 102 训练完成
++++++++++ size = 106
+[1] loss: 0.086 ,100.000%
+train_accu_best = 22.642%
+test_accu_best = 30.000%
+[11] loss: 0.089 ,103.851%
+train_accu_best = 25.472%
+test_accu_best = 45.000%
+[21] loss: 0.082 ,95.660%
+train_accu_best = 24.528%
+test_accu_best = 50.000%
+[61] loss: 0.083 ,97.309%
+train_accu_best = 26.415%
+test_accu_best = 55.000%
+[201] loss: 0.067 ,78.201%
+train_accu_best = 20.755%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 106 训练完成
++++++++++ size = 110
+[1] loss: 0.083 ,100.000%
+train_accu_best = 21.818%
+test_accu_best = 45.000%
+[111] loss: 0.076 ,90.984%
+train_accu_best = 20.909%
+test_accu_best = 50.000%
+[121] loss: 0.073 ,87.862%
+train_accu_best = 25.455%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 110 训练完成
++++++++++ size = 113
+[1] loss: 0.085 ,100.000%
+train_accu_best = 23.009%
+test_accu_best = 30.000%
+[11] loss: 0.086 ,101.305%
+train_accu_best = 23.009%
+test_accu_best = 45.000%
+[41] loss: 0.082 ,96.525%
+train_accu_best = 25.664%
+test_accu_best = 50.000%
+[71] loss: 0.075 ,89.220%
+train_accu_best = 21.239%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 113 训练完成
++++++++++ size = 117
+[1] loss: 0.082 ,100.000%
+train_accu_best = 23.932%
+test_accu_best = 40.000%
+[101] loss: 0.072 ,87.374%
+train_accu_best = 24.786%
+test_accu_best = 50.000%
+[131] loss: 0.068 ,83.214%
+train_accu_best = 30.769%
+test_accu_best = 55.000%
+[331] loss: 0.054 ,65.502%
+train_accu_best = 24.786%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 117 训练完成
++++++++++ size = 121
+[1] loss: 0.083 ,100.000%
+train_accu_best = 23.967%
+test_accu_best = 35.000%
+[21] loss: 0.075 ,91.020%
+train_accu_best = 24.793%
+test_accu_best = 45.000%
+[71] loss: 0.071 ,86.196%
+train_accu_best = 23.967%
+test_accu_best = 50.000%
+[181] loss: 0.059 ,71.618%
+train_accu_best = 21.488%
+test_accu_best = 55.000%
+[191] loss: 0.060 ,72.572%
+train_accu_best = 20.661%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 121 训练完成
++++++++++ size = 124
+[1] loss: 0.079 ,100.000%
+train_accu_best = 25.000%
+test_accu_best = 55.000%
+[221] loss: 0.057 ,72.531%
+train_accu_best = 25.000%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 124 训练完成
++++++++++ size = 128
+[1] loss: 0.074 ,100.000%
+train_accu_best = 24.219%
+test_accu_best = 30.000%
+[21] loss: 0.070 ,94.463%
+train_accu_best = 22.656%
+test_accu_best = 45.000%
+[81] loss: 0.063 ,84.423%
+train_accu_best = 21.094%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 128 训练完成
++++++++++ size = 132
+[1] loss: 0.103 ,100.000%
+train_accu_best = 23.485%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 132 训练完成
++++++++++ size = 135
+[1] loss: 0.085 ,100.000%
+train_accu_best = 25.185%
+test_accu_best = 40.000%
+[21] loss: 0.088 ,103.128%
+train_accu_best = 26.667%
+test_accu_best = 45.000%
+[41] loss: 0.072 ,84.441%
+train_accu_best = 26.667%
+test_accu_best = 50.000%
+[81] loss: 0.076 ,89.473%
+train_accu_best = 27.407%
+test_accu_best = 55.000%
+[211] loss: 0.061 ,71.344%
+train_accu_best = 22.963%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 135 训练完成
++++++++++ size = 139
+[1] loss: 0.084 ,100.000%
+train_accu_best = 26.619%
+test_accu_best = 50.000%
+[71] loss: 0.073 ,86.872%
+train_accu_best = 23.022%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 139 训练完成
++++++++++ size = 143
+[1] loss: 0.082 ,100.000%
+train_accu_best = 23.077%
+test_accu_best = 50.000%
+[281] loss: 0.055 ,67.548%
+train_accu_best = 20.979%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 143 训练完成
++++++++++ size = 146
+[1] loss: 0.073 ,100.000%
+train_accu_best = 28.082%
+test_accu_best = 40.000%
+[11] loss: 0.073 ,100.196%
+train_accu_best = 23.973%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 146 训练完成
++++++++++ size = 150
+[1] loss: 0.075 ,100.000%
+train_accu_best = 27.333%
+test_accu_best = 35.000%
+[11] loss: 0.075 ,99.367%
+train_accu_best = 30.667%
+test_accu_best = 40.000%
+[21] loss: 0.076 ,100.652%
+train_accu_best = 25.333%
+test_accu_best = 45.000%
+[31] loss: 0.068 ,89.955%
+train_accu_best = 29.333%
+test_accu_best = 50.000%
+[161] loss: 0.059 ,77.944%
+train_accu_best = 26.667%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 150 训练完成
++++++++++ size = 154
+[1] loss: 0.078 ,100.000%
+train_accu_best = 24.675%
+test_accu_best = 40.000%
+[11] loss: 0.073 ,92.837%
+train_accu_best = 29.221%
+test_accu_best = 50.000%
+[291] loss: 0.050 ,63.725%
+train_accu_best = 28.571%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 154 训练完成
++++++++++ size = 157
+[1] loss: 0.075 ,100.000%
+train_accu_best = 22.930%
+test_accu_best = 40.000%
+[11] loss: 0.072 ,95.774%
+train_accu_best = 27.389%
+test_accu_best = 45.000%
+[21] loss: 0.067 ,89.261%
+train_accu_best = 27.389%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 157 训练完成
++++++++++ size = 161
+[1] loss: 0.091 ,100.000%
+train_accu_best = 26.087%
+test_accu_best = 40.000%
+[11] loss: 0.070 ,77.565%
+train_accu_best = 29.814%
+test_accu_best = 45.000%
+[41] loss: 0.065 ,71.734%
+train_accu_best = 30.435%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 161 训练完成
++++++++++ size = 165
+[1] loss: 0.080 ,100.000%
+train_accu_best = 25.455%
+test_accu_best = 35.000%
+[11] loss: 0.077 ,96.226%
+train_accu_best = 27.273%
+test_accu_best = 40.000%
+[21] loss: 0.080 ,99.740%
+train_accu_best = 26.667%
+test_accu_best = 45.000%
+[51] loss: 0.071 ,88.500%
+train_accu_best = 25.455%
+test_accu_best = 50.000%
+[191] loss: 0.060 ,74.972%
+train_accu_best = 25.455%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 165 训练完成
++++++++++ size = 168
+[1] loss: 0.081 ,100.000%
+train_accu_best = 24.405%
+test_accu_best = 30.000%
+[21] loss: 0.075 ,92.714%
+train_accu_best = 28.571%
+test_accu_best = 35.000%
+[31] loss: 0.073 ,89.384%
+train_accu_best = 27.381%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 168 训练完成
++++++++++ size = 172
+[1] loss: 0.084 ,100.000%
+train_accu_best = 28.488%
+test_accu_best = 35.000%
+[11] loss: 0.074 ,88.123%
+train_accu_best = 30.233%
+test_accu_best = 40.000%
+[21] loss: 0.079 ,93.187%
+train_accu_best = 27.907%
+test_accu_best = 45.000%
+[61] loss: 0.070 ,82.747%
+train_accu_best = 27.907%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 172 训练完成
++++++++++ size = 176
+[1] loss: 0.078 ,100.000%
+train_accu_best = 29.545%
+test_accu_best = 40.000%
+[51] loss: 0.066 ,85.289%
+train_accu_best = 29.545%
+test_accu_best = 45.000%
+[61] loss: 0.069 ,88.870%
+train_accu_best = 26.136%
+test_accu_best = 50.000%
+[91] loss: 0.065 ,83.198%
+train_accu_best = 25.568%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 176 训练完成
++++++++++ size = 180
+[1] loss: 0.074 ,100.000%
+train_accu_best = 31.667%
+test_accu_best = 35.000%
+[41] loss: 0.066 ,88.885%
+train_accu_best = 28.333%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cw 训练集容量 180 训练完成
+LSTM_cross_subject_4class_fine_Net47：cw : 测试集准确率  0.500%
+------------------
+cwm 的训练情况：
++++++++++ size = 0
+test_accu_best = 35.000%
++++++++++ size = 3
+[1] loss: 0.534 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 40.000%
+[41] loss: 0.547 ,102.495%
+train_accu_best = 33.333%
+test_accu_best = 45.000%
+[181] loss: 0.408 ,76.450%
+train_accu_best = 33.333%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 3 训练完成
++++++++++ size = 7
+[1] loss: 0.219 ,100.000%
+train_accu_best = 42.857%
+test_accu_best = 25.000%
+[11] loss: 0.220 ,100.411%
+train_accu_best = 42.857%
+test_accu_best = 35.000%
+[21] loss: 0.206 ,94.118%
+train_accu_best = 42.857%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 7 训练完成
++++++++++ size = 11
+[1] loss: 0.124 ,100.000%
+train_accu_best = 36.364%
+test_accu_best = 40.000%
+[101] loss: 0.118 ,94.815%
+train_accu_best = 36.364%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 11 训练完成
++++++++++ size = 14
+[1] loss: 0.113 ,100.000%
+train_accu_best = 28.571%
+test_accu_best = 35.000%
+[101] loss: 0.103 ,91.055%
+train_accu_best = 35.714%
+test_accu_best = 40.000%
+[121] loss: 0.103 ,91.854%
+train_accu_best = 35.714%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 14 训练完成
++++++++++ size = 18
+[1] loss: 0.089 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 35.000%
+[11] loss: 0.084 ,94.436%
+train_accu_best = 22.222%
+test_accu_best = 40.000%
+[191] loss: 0.081 ,90.817%
+train_accu_best = 33.333%
+test_accu_best = 45.000%
+[371] loss: 0.072 ,80.759%
+train_accu_best = 33.333%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 18 训练完成
++++++++++ size = 22
+[1] loss: 0.066 ,100.000%
+train_accu_best = 36.364%
+test_accu_best = 35.000%
+[61] loss: 0.064 ,96.748%
+train_accu_best = 36.364%
+test_accu_best = 45.000%
+[131] loss: 0.063 ,95.424%
+train_accu_best = 31.818%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 22 训练完成
++++++++++ size = 25
+[1] loss: 0.062 ,100.000%
+train_accu_best = 36.000%
+test_accu_best = 35.000%
+[11] loss: 0.059 ,96.355%
+train_accu_best = 28.000%
+test_accu_best = 45.000%
+[111] loss: 0.057 ,92.200%
+train_accu_best = 40.000%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 25 训练完成
++++++++++ size = 29
+[1] loss: 0.053 ,100.000%
+train_accu_best = 34.483%
+test_accu_best = 35.000%
+[51] loss: 0.051 ,95.897%
+train_accu_best = 44.828%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 29 训练完成
++++++++++ size = 33
+[1] loss: 0.110 ,100.000%
+train_accu_best = 24.242%
+test_accu_best = 30.000%
+[21] loss: 0.106 ,96.468%
+train_accu_best = 27.273%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 33 训练完成
++++++++++ size = 36
+[1] loss: 0.081 ,100.000%
+train_accu_best = 30.556%
+test_accu_best = 20.000%
+[11] loss: 0.089 ,109.736%
+train_accu_best = 30.556%
+test_accu_best = 30.000%
+[21] loss: 0.082 ,101.071%
+train_accu_best = 27.778%
+test_accu_best = 40.000%
+[31] loss: 0.084 ,102.818%
+train_accu_best = 30.556%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 36 训练完成
++++++++++ size = 40
+[1] loss: 0.077 ,100.000%
+train_accu_best = 32.500%
+test_accu_best = 40.000%
+[111] loss: 0.072 ,94.601%
+train_accu_best = 42.500%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 40 训练完成
++++++++++ size = 44
+[1] loss: 0.072 ,100.000%
+train_accu_best = 31.818%
+test_accu_best = 35.000%
+[71] loss: 0.066 ,91.248%
+train_accu_best = 31.818%
+test_accu_best = 40.000%
+[81] loss: 0.061 ,84.638%
+train_accu_best = 25.000%
+test_accu_best = 45.000%
+[241] loss: 0.061 ,84.004%
+train_accu_best = 31.818%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 44 训练完成
++++++++++ size = 47
+[1] loss: 0.063 ,100.000%
+train_accu_best = 25.532%
+test_accu_best = 35.000%
+[71] loss: 0.059 ,93.815%
+train_accu_best = 23.404%
+test_accu_best = 40.000%
+[101] loss: 0.060 ,95.453%
+train_accu_best = 27.660%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 47 训练完成
++++++++++ size = 51
+[1] loss: 0.060 ,100.000%
+train_accu_best = 25.490%
+test_accu_best = 30.000%
+[11] loss: 0.059 ,97.620%
+train_accu_best = 27.451%
+test_accu_best = 40.000%
+[71] loss: 0.057 ,94.154%
+train_accu_best = 27.451%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 51 训练完成
++++++++++ size = 55
+[1] loss: 0.055 ,100.000%
+train_accu_best = 27.273%
+test_accu_best = 30.000%
+[31] loss: 0.054 ,97.579%
+train_accu_best = 29.091%
+test_accu_best = 45.000%
+[261] loss: 0.048 ,88.138%
+train_accu_best = 30.909%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 55 训练完成
++++++++++ size = 58
+[1] loss: 0.052 ,100.000%
+train_accu_best = 31.034%
+test_accu_best = 30.000%
+[51] loss: 0.050 ,95.085%
+train_accu_best = 31.034%
+test_accu_best = 35.000%
+[71] loss: 0.047 ,90.240%
+train_accu_best = 31.034%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 58 训练完成
++++++++++ size = 62
+[1] loss: 0.050 ,100.000%
+train_accu_best = 32.258%
+test_accu_best = 40.000%
+[91] loss: 0.046 ,92.352%
+train_accu_best = 35.484%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 62 训练完成
++++++++++ size = 66
+[1] loss: 0.074 ,100.000%
+train_accu_best = 28.788%
+test_accu_best = 40.000%
+[141] loss: 0.067 ,89.980%
+train_accu_best = 27.273%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 66 训练完成
++++++++++ size = 69
+[1] loss: 0.066 ,100.000%
+train_accu_best = 27.536%
+test_accu_best = 30.000%
+[21] loss: 0.067 ,100.925%
+train_accu_best = 27.536%
+test_accu_best = 40.000%
+[71] loss: 0.058 ,87.820%
+train_accu_best = 31.884%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 69 训练完成
++++++++++ size = 73
+[1] loss: 0.058 ,100.000%
+train_accu_best = 31.507%
+test_accu_best = 30.000%
+[11] loss: 0.061 ,104.160%
+train_accu_best = 31.507%
+test_accu_best = 35.000%
+[31] loss: 0.064 ,110.196%
+train_accu_best = 23.288%
+test_accu_best = 40.000%
+[91] loss: 0.058 ,99.794%
+train_accu_best = 28.767%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 73 训练完成
++++++++++ size = 77
+[1] loss: 0.061 ,100.000%
+train_accu_best = 27.273%
+test_accu_best = 35.000%
+[41] loss: 0.060 ,98.223%
+train_accu_best = 28.571%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 77 训练完成
++++++++++ size = 80
+[1] loss: 0.056 ,100.000%
+train_accu_best = 25.000%
+test_accu_best = 35.000%
+[11] loss: 0.059 ,105.399%
+train_accu_best = 27.500%
+test_accu_best = 40.000%
+[221] loss: 0.053 ,94.234%
+train_accu_best = 35.000%
+test_accu_best = 45.000%
+[371] loss: 0.051 ,91.547%
+train_accu_best = 36.250%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 80 训练完成
++++++++++ size = 84
+[1] loss: 0.054 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 30.000%
+[21] loss: 0.055 ,102.307%
+train_accu_best = 29.762%
+test_accu_best = 35.000%
+[51] loss: 0.052 ,96.135%
+train_accu_best = 32.143%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 84 训练完成
++++++++++ size = 88
+[1] loss: 0.053 ,100.000%
+train_accu_best = 30.682%
+test_accu_best = 40.000%
+[31] loss: 0.052 ,97.256%
+train_accu_best = 27.273%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 88 训练完成
++++++++++ size = 91
+[1] loss: 0.051 ,100.000%
+train_accu_best = 28.571%
+test_accu_best = 30.000%
+[21] loss: 0.048 ,95.623%
+train_accu_best = 28.571%
+test_accu_best = 35.000%
+[71] loss: 0.048 ,93.999%
+train_accu_best = 29.670%
+test_accu_best = 40.000%
+[81] loss: 0.047 ,92.315%
+train_accu_best = 34.066%
+test_accu_best = 45.000%
+[741] loss: 0.043 ,84.692%
+train_accu_best = 39.560%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 91 训练完成
++++++++++ size = 95
+[1] loss: 0.049 ,100.000%
+train_accu_best = 32.632%
+test_accu_best = 30.000%
+[21] loss: 0.047 ,95.462%
+train_accu_best = 26.316%
+test_accu_best = 40.000%
+[41] loss: 0.047 ,96.648%
+train_accu_best = 33.684%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 95 训练完成
++++++++++ size = 99
+[1] loss: 0.067 ,100.000%
+train_accu_best = 31.313%
+test_accu_best = 30.000%
+[21] loss: 0.058 ,86.613%
+train_accu_best = 31.313%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 99 训练完成
++++++++++ size = 102
+[1] loss: 0.062 ,100.000%
+train_accu_best = 28.431%
+test_accu_best = 30.000%
+[11] loss: 0.056 ,90.147%
+train_accu_best = 28.431%
+test_accu_best = 40.000%
+[71] loss: 0.058 ,93.445%
+train_accu_best = 33.333%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 102 训练完成
++++++++++ size = 106
+[1] loss: 0.057 ,100.000%
+train_accu_best = 31.132%
+test_accu_best = 45.000%
+[411] loss: 0.052 ,91.866%
+train_accu_best = 34.906%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 106 训练完成
++++++++++ size = 110
+[1] loss: 0.056 ,100.000%
+train_accu_best = 30.000%
+test_accu_best = 35.000%
+[31] loss: 0.054 ,97.838%
+train_accu_best = 29.091%
+test_accu_best = 40.000%
+[91] loss: 0.052 ,93.461%
+train_accu_best = 27.273%
+test_accu_best = 45.000%
+[501] loss: 0.048 ,86.613%
+train_accu_best = 39.091%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 110 训练完成
++++++++++ size = 113
+[1] loss: 0.054 ,100.000%
+train_accu_best = 31.858%
+test_accu_best = 35.000%
+[51] loss: 0.052 ,96.949%
+train_accu_best = 29.204%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 113 训练完成
++++++++++ size = 117
+[1] loss: 0.053 ,100.000%
+train_accu_best = 25.641%
+test_accu_best = 30.000%
+[11] loss: 0.052 ,97.899%
+train_accu_best = 31.624%
+test_accu_best = 40.000%
+[71] loss: 0.049 ,91.819%
+train_accu_best = 28.205%
+test_accu_best = 45.000%
+[441] loss: 0.046 ,85.702%
+train_accu_best = 39.316%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 117 训练完成
++++++++++ size = 121
+[1] loss: 0.053 ,100.000%
+train_accu_best = 33.884%
+test_accu_best = 35.000%
+[21] loss: 0.049 ,93.576%
+train_accu_best = 27.273%
+test_accu_best = 45.000%
+[531] loss: 0.044 ,84.388%
+train_accu_best = 38.017%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 121 训练完成
++++++++++ size = 124
+[1] loss: 0.050 ,100.000%
+train_accu_best = 31.452%
+test_accu_best = 35.000%
+[41] loss: 0.047 ,94.068%
+train_accu_best = 28.226%
+test_accu_best = 40.000%
+[131] loss: 0.045 ,90.108%
+train_accu_best = 32.258%
+test_accu_best = 45.000%
+[481] loss: 0.043 ,85.541%
+train_accu_best = 37.903%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 124 训练完成
++++++++++ size = 128
+[1] loss: 0.048 ,100.000%
+train_accu_best = 28.906%
+test_accu_best = 30.000%
+[21] loss: 0.047 ,96.836%
+train_accu_best = 27.344%
+test_accu_best = 35.000%
+[31] loss: 0.046 ,94.618%
+train_accu_best = 27.344%
+test_accu_best = 45.000%
+[311] loss: 0.043 ,88.442%
+train_accu_best = 35.156%
+test_accu_best = 50.000%
+[661] loss: 0.042 ,86.437%
+train_accu_best = 42.969%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 128 训练完成
++++++++++ size = 132
+[1] loss: 0.059 ,100.000%
+train_accu_best = 28.788%
+test_accu_best = 25.000%
+[11] loss: 0.057 ,96.792%
+train_accu_best = 26.515%
+test_accu_best = 35.000%
+[31] loss: 0.056 ,95.517%
+train_accu_best = 31.818%
+test_accu_best = 40.000%
+[61] loss: 0.056 ,94.530%
+train_accu_best = 28.030%
+test_accu_best = 45.000%
+[221] loss: 0.051 ,85.969%
+train_accu_best = 30.303%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 132 训练完成
++++++++++ size = 135
+[1] loss: 0.057 ,100.000%
+train_accu_best = 28.889%
+test_accu_best = 40.000%
+[141] loss: 0.050 ,87.672%
+train_accu_best = 28.889%
+test_accu_best = 45.000%
+[351] loss: 0.050 ,88.163%
+train_accu_best = 34.815%
+test_accu_best = 50.000%
+[531] loss: 0.049 ,87.130%
+train_accu_best = 34.074%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 135 训练完成
++++++++++ size = 139
+[1] loss: 0.056 ,100.000%
+train_accu_best = 30.935%
+test_accu_best = 40.000%
+[91] loss: 0.051 ,91.099%
+train_accu_best = 31.655%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 139 训练完成
++++++++++ size = 143
+[1] loss: 0.053 ,100.000%
+train_accu_best = 29.371%
+test_accu_best = 45.000%
+[631] loss: 0.045 ,85.383%
+train_accu_best = 41.259%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 143 训练完成
++++++++++ size = 146
+[1] loss: 0.053 ,100.000%
+train_accu_best = 30.137%
+test_accu_best = 40.000%
+[31] loss: 0.051 ,95.280%
+train_accu_best = 30.137%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 146 训练完成
++++++++++ size = 150
+[1] loss: 0.051 ,100.000%
+train_accu_best = 31.333%
+test_accu_best = 40.000%
+[71] loss: 0.048 ,94.227%
+train_accu_best = 30.667%
+test_accu_best = 45.000%
+[191] loss: 0.046 ,90.130%
+train_accu_best = 32.000%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 150 训练完成
++++++++++ size = 154
+[1] loss: 0.050 ,100.000%
+train_accu_best = 27.922%
+test_accu_best = 35.000%
+[51] loss: 0.048 ,95.278%
+train_accu_best = 29.221%
+test_accu_best = 40.000%
+[91] loss: 0.046 ,91.713%
+train_accu_best = 29.221%
+test_accu_best = 45.000%
+[371] loss: 0.043 ,86.172%
+train_accu_best = 39.610%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 154 训练完成
++++++++++ size = 157
+[1] loss: 0.049 ,100.000%
+train_accu_best = 29.299%
+test_accu_best = 30.000%
+[11] loss: 0.048 ,97.689%
+train_accu_best = 28.025%
+test_accu_best = 40.000%
+[111] loss: 0.044 ,91.273%
+train_accu_best = 30.573%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 157 训练完成
++++++++++ size = 161
+[1] loss: 0.060 ,100.000%
+train_accu_best = 30.435%
+test_accu_best = 35.000%
+[31] loss: 0.052 ,87.157%
+train_accu_best = 32.298%
+test_accu_best = 40.000%
+[61] loss: 0.055 ,91.993%
+train_accu_best = 28.571%
+test_accu_best = 45.000%
+[271] loss: 0.053 ,89.558%
+train_accu_best = 29.814%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 161 训练完成
++++++++++ size = 165
+[1] loss: 0.057 ,100.000%
+train_accu_best = 26.061%
+test_accu_best = 30.000%
+[31] loss: 0.053 ,93.880%
+train_accu_best = 26.667%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 165 训练完成
++++++++++ size = 168
+[1] loss: 0.055 ,100.000%
+train_accu_best = 26.190%
+test_accu_best = 35.000%
+[11] loss: 0.056 ,102.965%
+train_accu_best = 27.381%
+test_accu_best = 45.000%
+[71] loss: 0.050 ,91.764%
+train_accu_best = 32.143%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 168 训练完成
++++++++++ size = 172
+[1] loss: 0.055 ,100.000%
+train_accu_best = 28.488%
+test_accu_best = 30.000%
+[11] loss: 0.053 ,95.530%
+train_accu_best = 29.070%
+test_accu_best = 35.000%
+[71] loss: 0.048 ,86.537%
+train_accu_best = 27.907%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 172 训练完成
++++++++++ size = 176
+[1] loss: 0.053 ,100.000%
+train_accu_best = 27.841%
+test_accu_best = 30.000%
+[31] loss: 0.051 ,96.243%
+train_accu_best = 28.977%
+test_accu_best = 45.000%
+[51] loss: 0.051 ,95.756%
+train_accu_best = 29.545%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 176 训练完成
++++++++++ size = 180
+[1] loss: 0.051 ,100.000%
+train_accu_best = 27.222%
+test_accu_best = 40.000%
+[21] loss: 0.050 ,98.253%
+train_accu_best = 27.222%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：cwm 训练集容量 180 训练完成
+LSTM_cross_subject_4class_fine_Net47：cwm : 测试集准确率  0.500%
+------------------
+kx 的训练情况：
++++++++++ size = 0
+test_accu_best = 25.000%
++++++++++ size = 3
+[1] loss: 0.665 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 20.000%
+[11] loss: 0.625 ,94.049%
+train_accu_best = 0.000%
+test_accu_best = 35.000%
+[21] loss: 0.313 ,47.058%
+train_accu_best = 33.333%
+test_accu_best = 40.000%
+[131] loss: 0.480 ,72.169%
+train_accu_best = 33.333%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 3 训练完成
++++++++++ size = 7
+[1] loss: 0.252 ,100.000%
+train_accu_best = 42.857%
+test_accu_best = 35.000%
+[71] loss: 0.195 ,77.397%
+train_accu_best = 57.143%
+test_accu_best = 45.000%
+[121] loss: 0.178 ,70.906%
+train_accu_best = 57.143%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 7 训练完成
++++++++++ size = 11
+[1] loss: 0.133 ,100.000%
+train_accu_best = 45.455%
+test_accu_best = 30.000%
+[11] loss: 0.130 ,97.839%
+train_accu_best = 18.182%
+test_accu_best = 35.000%
+[31] loss: 0.138 ,103.385%
+train_accu_best = 36.364%
+test_accu_best = 45.000%
+[81] loss: 0.113 ,84.535%
+train_accu_best = 36.364%
+test_accu_best = 50.000%
+[371] loss: 0.120 ,90.153%
+train_accu_best = 36.364%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 11 训练完成
++++++++++ size = 14
+[1] loss: 0.096 ,100.000%
+train_accu_best = 28.571%
+test_accu_best = 45.000%
+[151] loss: 0.098 ,102.141%
+train_accu_best = 42.857%
+test_accu_best = 50.000%
+[171] loss: 0.102 ,105.988%
+train_accu_best = 35.714%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 14 训练完成
++++++++++ size = 18
+[1] loss: 0.080 ,100.000%
+train_accu_best = 38.889%
+test_accu_best = 45.000%
+[111] loss: 0.068 ,85.221%
+train_accu_best = 44.444%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 18 训练完成
++++++++++ size = 22
+[1] loss: 0.059 ,100.000%
+train_accu_best = 45.455%
+test_accu_best = 30.000%
+[11] loss: 0.070 ,118.214%
+train_accu_best = 36.364%
+test_accu_best = 35.000%
+[51] loss: 0.066 ,111.728%
+train_accu_best = 36.364%
+test_accu_best = 40.000%
+[71] loss: 0.058 ,98.539%
+train_accu_best = 54.545%
+test_accu_best = 45.000%
+[201] loss: 0.056 ,94.170%
+train_accu_best = 40.909%
+test_accu_best = 50.000%
+[361] loss: 0.056 ,94.781%
+train_accu_best = 54.545%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 22 训练完成
++++++++++ size = 25
+[1] loss: 0.057 ,100.000%
+train_accu_best = 40.000%
+test_accu_best = 30.000%
+[11] loss: 0.058 ,102.570%
+train_accu_best = 44.000%
+test_accu_best = 35.000%
+[41] loss: 0.060 ,105.665%
+train_accu_best = 40.000%
+test_accu_best = 40.000%
+[91] loss: 0.051 ,89.934%
+train_accu_best = 48.000%
+test_accu_best = 50.000%
+[281] loss: 0.050 ,87.745%
+train_accu_best = 44.000%
+test_accu_best = 55.000%
+[691] loss: 0.051 ,89.322%
+train_accu_best = 60.000%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 25 训练完成
++++++++++ size = 29
+[1] loss: 0.051 ,100.000%
+train_accu_best = 37.931%
+test_accu_best = 35.000%
+[31] loss: 0.053 ,103.369%
+train_accu_best = 44.828%
+test_accu_best = 40.000%
+[51] loss: 0.051 ,98.185%
+train_accu_best = 37.931%
+test_accu_best = 55.000%
+[391] loss: 0.046 ,89.739%
+train_accu_best = 48.276%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 29 训练完成
++++++++++ size = 33
+[1] loss: 0.081 ,100.000%
+train_accu_best = 36.364%
+test_accu_best = 20.000%
+[11] loss: 0.066 ,80.987%
+train_accu_best = 27.273%
+test_accu_best = 30.000%
+[21] loss: 0.165 ,203.316%
+train_accu_best = 33.333%
+test_accu_best = 45.000%
+[81] loss: 0.110 ,135.793%
+train_accu_best = 42.424%
+test_accu_best = 50.000%
+[351] loss: 0.131 ,162.131%
+train_accu_best = 39.394%
+test_accu_best = 55.000%
+[621] loss: 0.086 ,106.007%
+train_accu_best = 48.485%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 33 训练完成
++++++++++ size = 36
+[1] loss: 0.102 ,100.000%
+train_accu_best = 36.111%
+test_accu_best = 35.000%
+[41] loss: 0.109 ,106.701%
+train_accu_best = 44.444%
+test_accu_best = 45.000%
+[111] loss: 0.080 ,78.760%
+train_accu_best = 41.667%
+test_accu_best = 50.000%
+[221] loss: 0.086 ,84.024%
+train_accu_best = 50.000%
+test_accu_best = 55.000%
+[601] loss: 0.058 ,56.882%
+train_accu_best = 50.000%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 36 训练完成
++++++++++ size = 40
+[1] loss: 0.070 ,100.000%
+train_accu_best = 32.500%
+test_accu_best = 35.000%
+[41] loss: 0.068 ,96.506%
+train_accu_best = 37.500%
+test_accu_best = 45.000%
+[111] loss: 0.066 ,94.352%
+train_accu_best = 35.000%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 40 训练完成
++++++++++ size = 44
+[1] loss: 0.076 ,100.000%
+train_accu_best = 31.818%
+test_accu_best = 20.000%
+[11] loss: 0.077 ,101.339%
+train_accu_best = 31.818%
+test_accu_best = 35.000%
+[41] loss: 0.079 ,104.400%
+train_accu_best = 43.182%
+test_accu_best = 50.000%
+[241] loss: 0.063 ,83.158%
+train_accu_best = 43.182%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 44 训练完成
++++++++++ size = 47
+[1] loss: 0.077 ,100.000%
+train_accu_best = 27.660%
+test_accu_best = 25.000%
+[11] loss: 0.064 ,83.705%
+train_accu_best = 40.426%
+test_accu_best = 40.000%
+[21] loss: 0.070 ,90.788%
+train_accu_best = 31.915%
+test_accu_best = 45.000%
+[111] loss: 0.067 ,87.739%
+train_accu_best = 38.298%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 47 训练完成
++++++++++ size = 51
+[1] loss: 0.064 ,100.000%
+train_accu_best = 27.451%
+test_accu_best = 30.000%
+[11] loss: 0.062 ,95.860%
+train_accu_best = 45.098%
+test_accu_best = 40.000%
+[111] loss: 0.063 ,97.293%
+train_accu_best = 41.176%
+test_accu_best = 45.000%
+[181] loss: 0.058 ,89.787%
+train_accu_best = 35.294%
+test_accu_best = 50.000%
+[281] loss: 0.055 ,85.963%
+train_accu_best = 37.255%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 51 训练完成
++++++++++ size = 55
+[1] loss: 0.057 ,100.000%
+train_accu_best = 27.273%
+test_accu_best = 25.000%
+[11] loss: 0.061 ,106.264%
+train_accu_best = 27.273%
+test_accu_best = 35.000%
+[21] loss: 0.060 ,105.865%
+train_accu_best = 36.364%
+test_accu_best = 40.000%
+[41] loss: 0.056 ,98.959%
+train_accu_best = 40.000%
+test_accu_best = 45.000%
+[111] loss: 0.055 ,95.959%
+train_accu_best = 38.182%
+test_accu_best = 50.000%
+[231] loss: 0.052 ,90.516%
+train_accu_best = 40.000%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 55 训练完成
++++++++++ size = 58
+[1] loss: 0.055 ,100.000%
+train_accu_best = 32.759%
+test_accu_best = 35.000%
+[41] loss: 0.059 ,106.343%
+train_accu_best = 43.103%
+test_accu_best = 40.000%
+[71] loss: 0.050 ,90.238%
+train_accu_best = 34.483%
+test_accu_best = 45.000%
+[81] loss: 0.051 ,91.939%
+train_accu_best = 36.207%
+test_accu_best = 50.000%
+[291] loss: 0.048 ,87.549%
+train_accu_best = 39.655%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 58 训练完成
++++++++++ size = 62
+[1] loss: 0.052 ,100.000%
+train_accu_best = 33.871%
+test_accu_best = 30.000%
+[21] loss: 0.050 ,98.002%
+train_accu_best = 37.097%
+test_accu_best = 35.000%
+[71] loss: 0.048 ,94.101%
+train_accu_best = 35.484%
+test_accu_best = 40.000%
+[81] loss: 0.052 ,100.579%
+train_accu_best = 37.097%
+test_accu_best = 45.000%
+[121] loss: 0.048 ,92.709%
+train_accu_best = 38.710%
+test_accu_best = 50.000%
+[381] loss: 0.043 ,83.657%
+train_accu_best = 37.097%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 62 训练完成
++++++++++ size = 66
+[1] loss: 0.065 ,100.000%
+train_accu_best = 34.848%
+test_accu_best = 20.000%
+[11] loss: 0.063 ,96.799%
+train_accu_best = 40.909%
+test_accu_best = 40.000%
+[41] loss: 0.066 ,101.587%
+train_accu_best = 37.879%
+test_accu_best = 50.000%
+[411] loss: 0.051 ,78.806%
+train_accu_best = 37.879%
+test_accu_best = 55.000%
+[541] loss: 0.053 ,81.499%
+train_accu_best = 31.818%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 66 训练完成
++++++++++ size = 69
+[1] loss: 0.059 ,100.000%
+train_accu_best = 36.232%
+test_accu_best = 30.000%
+[11] loss: 0.062 ,105.415%
+train_accu_best = 31.884%
+test_accu_best = 35.000%
+[61] loss: 0.060 ,102.854%
+train_accu_best = 34.783%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 69 训练完成
++++++++++ size = 73
+[1] loss: 0.075 ,100.000%
+train_accu_best = 32.877%
+test_accu_best = 40.000%
+[71] loss: 0.064 ,85.060%
+train_accu_best = 39.726%
+test_accu_best = 45.000%
+[101] loss: 0.061 ,81.878%
+train_accu_best = 38.356%
+test_accu_best = 50.000%
+[441] loss: 0.055 ,73.822%
+train_accu_best = 38.356%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 73 训练完成
++++++++++ size = 77
+[1] loss: 0.063 ,100.000%
+train_accu_best = 31.169%
+test_accu_best = 40.000%
+[51] loss: 0.057 ,90.224%
+train_accu_best = 40.260%
+test_accu_best = 45.000%
+[81] loss: 0.057 ,90.856%
+train_accu_best = 37.662%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 77 训练完成
++++++++++ size = 80
+[1] loss: 0.056 ,100.000%
+train_accu_best = 33.750%
+test_accu_best = 25.000%
+[11] loss: 0.061 ,109.190%
+train_accu_best = 37.500%
+test_accu_best = 35.000%
+[41] loss: 0.058 ,104.598%
+train_accu_best = 35.000%
+test_accu_best = 40.000%
+[51] loss: 0.056 ,100.716%
+train_accu_best = 32.500%
+test_accu_best = 45.000%
+[161] loss: 0.054 ,97.017%
+train_accu_best = 41.250%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 80 训练完成
++++++++++ size = 84
+[1] loss: 0.057 ,100.000%
+train_accu_best = 34.524%
+test_accu_best = 40.000%
+[71] loss: 0.052 ,91.096%
+train_accu_best = 36.905%
+test_accu_best = 50.000%
+[301] loss: 0.050 ,87.107%
+train_accu_best = 36.905%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 84 训练完成
++++++++++ size = 88
+[1] loss: 0.054 ,100.000%
+train_accu_best = 30.682%
+test_accu_best = 15.000%
+[11] loss: 0.052 ,95.940%
+train_accu_best = 34.091%
+test_accu_best = 35.000%
+[31] loss: 0.052 ,95.736%
+train_accu_best = 36.364%
+test_accu_best = 45.000%
+[91] loss: 0.050 ,92.825%
+train_accu_best = 38.636%
+test_accu_best = 50.000%
+[191] loss: 0.046 ,85.987%
+train_accu_best = 37.500%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 88 训练完成
++++++++++ size = 91
+[1] loss: 0.052 ,100.000%
+train_accu_best = 30.769%
+test_accu_best = 40.000%
+[51] loss: 0.051 ,99.299%
+train_accu_best = 40.659%
+test_accu_best = 50.000%
+[161] loss: 0.045 ,86.277%
+train_accu_best = 38.462%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 91 训练完成
++++++++++ size = 95
+[1] loss: 0.050 ,100.000%
+train_accu_best = 33.684%
+test_accu_best = 40.000%
+[41] loss: 0.046 ,91.247%
+train_accu_best = 37.895%
+test_accu_best = 45.000%
+[51] loss: 0.047 ,93.233%
+train_accu_best = 34.737%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 95 训练完成
++++++++++ size = 99
+[1] loss: 0.061 ,100.000%
+train_accu_best = 34.343%
+test_accu_best = 20.000%
+[11] loss: 0.059 ,96.717%
+train_accu_best = 34.343%
+test_accu_best = 25.000%
+[21] loss: 0.071 ,116.286%
+train_accu_best = 34.343%
+test_accu_best = 40.000%
+[41] loss: 0.058 ,94.198%
+train_accu_best = 36.364%
+test_accu_best = 50.000%
+[331] loss: 0.056 ,91.219%
+train_accu_best = 36.364%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 99 训练完成
++++++++++ size = 102
+[1] loss: 0.059 ,100.000%
+train_accu_best = 29.412%
+test_accu_best = 40.000%
+[41] loss: 0.055 ,92.008%
+train_accu_best = 43.137%
+test_accu_best = 45.000%
+[51] loss: 0.057 ,96.488%
+train_accu_best = 36.275%
+test_accu_best = 50.000%
+[381] loss: 0.055 ,92.154%
+train_accu_best = 37.255%
+test_accu_best = 55.000%
+[411] loss: 0.055 ,92.594%
+train_accu_best = 35.294%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 102 训练完成
++++++++++ size = 106
+[1] loss: 0.067 ,100.000%
+train_accu_best = 34.906%
+test_accu_best = 40.000%
+[41] loss: 0.057 ,85.609%
+train_accu_best = 34.906%
+test_accu_best = 45.000%
+[101] loss: 0.055 ,82.101%
+train_accu_best = 39.623%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 106 训练完成
++++++++++ size = 110
+[1] loss: 0.057 ,100.000%
+train_accu_best = 34.545%
+test_accu_best = 25.000%
+[21] loss: 0.057 ,100.299%
+train_accu_best = 32.727%
+test_accu_best = 35.000%
+[41] loss: 0.056 ,97.826%
+train_accu_best = 30.909%
+test_accu_best = 40.000%
+[91] loss: 0.053 ,92.800%
+train_accu_best = 36.364%
+test_accu_best = 45.000%
+[371] loss: 0.049 ,85.408%
+train_accu_best = 33.636%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 110 训练完成
++++++++++ size = 113
+[1] loss: 0.059 ,100.000%
+train_accu_best = 30.973%
+test_accu_best = 25.000%
+[11] loss: 0.057 ,96.827%
+train_accu_best = 32.743%
+test_accu_best = 35.000%
+[21] loss: 0.059 ,99.165%
+train_accu_best = 37.168%
+test_accu_best = 40.000%
+[91] loss: 0.051 ,86.737%
+train_accu_best = 34.513%
+test_accu_best = 45.000%
+[291] loss: 0.048 ,81.805%
+train_accu_best = 34.513%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 113 训练完成
++++++++++ size = 117
+[1] loss: 0.055 ,100.000%
+train_accu_best = 30.769%
+test_accu_best = 25.000%
+[31] loss: 0.054 ,96.809%
+train_accu_best = 30.769%
+test_accu_best = 40.000%
+[71] loss: 0.052 ,93.295%
+train_accu_best = 32.479%
+test_accu_best = 45.000%
+[141] loss: 0.049 ,88.157%
+train_accu_best = 36.752%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 117 训练完成
++++++++++ size = 121
+[1] loss: 0.054 ,100.000%
+train_accu_best = 27.273%
+test_accu_best = 25.000%
+[21] loss: 0.054 ,100.168%
+train_accu_best = 29.752%
+test_accu_best = 35.000%
+[51] loss: 0.051 ,95.344%
+train_accu_best = 32.231%
+test_accu_best = 45.000%
+[61] loss: 0.050 ,93.231%
+train_accu_best = 32.231%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 121 训练完成
++++++++++ size = 124
+[1] loss: 0.052 ,100.000%
+train_accu_best = 29.032%
+test_accu_best = 35.000%
+[11] loss: 0.053 ,102.780%
+train_accu_best = 30.645%
+test_accu_best = 45.000%
+[281] loss: 0.044 ,85.529%
+train_accu_best = 37.097%
+test_accu_best = 50.000%
+[301] loss: 0.044 ,85.701%
+train_accu_best = 32.258%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 124 训练完成
++++++++++ size = 128
+[1] loss: 0.053 ,100.000%
+train_accu_best = 29.688%
+test_accu_best = 35.000%
+[31] loss: 0.050 ,93.900%
+train_accu_best = 34.375%
+test_accu_best = 40.000%
+[81] loss: 0.048 ,91.371%
+train_accu_best = 28.125%
+test_accu_best = 45.000%
+[461] loss: 0.042 ,80.002%
+train_accu_best = 31.250%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 128 训练完成
++++++++++ size = 132
+[1] loss: 0.064 ,100.000%
+train_accu_best = 29.545%
+test_accu_best = 20.000%
+[11] loss: 0.063 ,99.165%
+train_accu_best = 34.091%
+test_accu_best = 30.000%
+[31] loss: 0.063 ,98.225%
+train_accu_best = 27.273%
+test_accu_best = 40.000%
+[81] loss: 0.059 ,91.975%
+train_accu_best = 37.879%
+test_accu_best = 55.000%
+[341] loss: 0.052 ,81.123%
+train_accu_best = 40.909%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 132 训练完成
++++++++++ size = 135
+[1] loss: 0.060 ,100.000%
+train_accu_best = 35.556%
+test_accu_best = 35.000%
+[41] loss: 0.056 ,93.590%
+train_accu_best = 34.815%
+test_accu_best = 40.000%
+[91] loss: 0.053 ,87.905%
+train_accu_best = 33.333%
+test_accu_best = 50.000%
+[181] loss: 0.052 ,86.550%
+train_accu_best = 36.296%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 135 训练完成
++++++++++ size = 139
+[1] loss: 0.061 ,100.000%
+train_accu_best = 27.338%
+test_accu_best = 25.000%
+[11] loss: 0.056 ,91.695%
+train_accu_best = 29.496%
+test_accu_best = 30.000%
+[21] loss: 0.058 ,95.552%
+train_accu_best = 31.655%
+test_accu_best = 35.000%
+[41] loss: 0.055 ,89.923%
+train_accu_best = 31.655%
+test_accu_best = 40.000%
+[81] loss: 0.051 ,84.254%
+train_accu_best = 34.532%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 139 训练完成
++++++++++ size = 143
+[1] loss: 0.059 ,100.000%
+train_accu_best = 32.168%
+test_accu_best = 35.000%
+[41] loss: 0.054 ,90.315%
+train_accu_best = 37.063%
+test_accu_best = 50.000%
+[171] loss: 0.049 ,81.960%
+train_accu_best = 30.769%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 143 训练完成
++++++++++ size = 146
+[1] loss: 0.058 ,100.000%
+train_accu_best = 30.822%
+test_accu_best = 30.000%
+[11] loss: 0.056 ,96.064%
+train_accu_best = 28.767%
+test_accu_best = 45.000%
+[181] loss: 0.047 ,80.575%
+train_accu_best = 34.247%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 146 训练完成
++++++++++ size = 150
+[1] loss: 0.055 ,100.000%
+train_accu_best = 30.000%
+test_accu_best = 20.000%
+[11] loss: 0.053 ,95.107%
+train_accu_best = 34.000%
+test_accu_best = 45.000%
+[71] loss: 0.048 ,86.671%
+train_accu_best = 30.667%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 150 训练完成
++++++++++ size = 154
+[1] loss: 0.053 ,100.000%
+train_accu_best = 33.117%
+test_accu_best = 40.000%
+[71] loss: 0.047 ,88.200%
+train_accu_best = 33.117%
+test_accu_best = 45.000%
+[81] loss: 0.046 ,86.777%
+train_accu_best = 33.766%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 154 训练完成
++++++++++ size = 157
+[1] loss: 0.052 ,100.000%
+train_accu_best = 33.758%
+test_accu_best = 30.000%
+[31] loss: 0.049 ,93.726%
+train_accu_best = 34.395%
+test_accu_best = 35.000%
+[51] loss: 0.048 ,93.114%
+train_accu_best = 36.306%
+test_accu_best = 40.000%
+[91] loss: 0.046 ,87.744%
+train_accu_best = 31.847%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 157 训练完成
++++++++++ size = 161
+[1] loss: 0.072 ,100.000%
+train_accu_best = 32.298%
+test_accu_best = 30.000%
+[11] loss: 0.055 ,77.064%
+train_accu_best = 37.267%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 161 训练完成
++++++++++ size = 165
+[1] loss: 0.061 ,100.000%
+train_accu_best = 32.727%
+test_accu_best = 20.000%
+[11] loss: 0.059 ,96.775%
+train_accu_best = 38.182%
+test_accu_best = 30.000%
+[51] loss: 0.054 ,88.010%
+train_accu_best = 31.515%
+test_accu_best = 35.000%
+[91] loss: 0.052 ,85.328%
+train_accu_best = 37.576%
+test_accu_best = 50.000%
+[291] loss: 0.050 ,81.542%
+train_accu_best = 39.394%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 165 训练完成
++++++++++ size = 168
+[1] loss: 0.058 ,100.000%
+train_accu_best = 29.167%
+test_accu_best = 30.000%
+[21] loss: 0.055 ,94.380%
+train_accu_best = 34.524%
+test_accu_best = 35.000%
+[31] loss: 0.056 ,96.549%
+train_accu_best = 33.333%
+test_accu_best = 40.000%
+[61] loss: 0.053 ,91.703%
+train_accu_best = 35.714%
+test_accu_best = 50.000%
+[171] loss: 0.049 ,84.000%
+train_accu_best = 38.095%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 168 训练完成
++++++++++ size = 172
+[1] loss: 0.056 ,100.000%
+train_accu_best = 33.140%
+test_accu_best = 40.000%
+[31] loss: 0.054 ,95.891%
+train_accu_best = 34.302%
+test_accu_best = 50.000%
+[251] loss: 0.047 ,83.256%
+train_accu_best = 34.302%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 172 训练完成
++++++++++ size = 176
+[1] loss: 0.058 ,100.000%
+train_accu_best = 31.818%
+test_accu_best = 40.000%
+[21] loss: 0.055 ,96.005%
+train_accu_best = 32.955%
+test_accu_best = 45.000%
+[251] loss: 0.046 ,79.920%
+train_accu_best = 31.818%
+test_accu_best = 50.000%
+[451] loss: 0.045 ,77.622%
+train_accu_best = 31.818%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 176 训练完成
++++++++++ size = 180
+[1] loss: 0.056 ,100.000%
+train_accu_best = 29.444%
+test_accu_best = 35.000%
+[51] loss: 0.051 ,90.188%
+train_accu_best = 30.000%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：kx 训练集容量 180 训练完成
+LSTM_cross_subject_4class_fine_Net47：kx : 测试集准确率  0.500%
+------------------
+pbl 的训练情况：
++++++++++ size = 0
+test_accu_best = 40.000%
++++++++++ size = 3
+[1] loss: 0.465 ,100.000%
+train_accu_best = 66.667%
+test_accu_best = 25.000%
+[11] loss: 0.515 ,110.717%
+train_accu_best = 33.333%
+test_accu_best = 35.000%
+[31] loss: 0.483 ,103.871%
+train_accu_best = 33.333%
+test_accu_best = 40.000%
+[41] loss: 0.523 ,112.398%
+train_accu_best = 33.333%
+test_accu_best = 45.000%
+[71] loss: 0.589 ,126.666%
+train_accu_best = 33.333%
+test_accu_best = 50.000%
+[461] loss: 0.325 ,69.855%
+train_accu_best = 33.333%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 3 训练完成
++++++++++ size = 7
+[1] loss: 0.214 ,100.000%
+train_accu_best = 42.857%
+test_accu_best = 35.000%
+[11] loss: 0.243 ,113.565%
+train_accu_best = 42.857%
+test_accu_best = 45.000%
+[61] loss: 0.230 ,107.485%
+train_accu_best = 42.857%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 7 训练完成
++++++++++ size = 11
+[1] loss: 0.139 ,100.000%
+train_accu_best = 45.455%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 11 训练完成
++++++++++ size = 14
+[1] loss: 0.116 ,100.000%
+train_accu_best = 21.429%
+test_accu_best = 35.000%
+[11] loss: 0.118 ,101.885%
+train_accu_best = 28.571%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 14 训练完成
++++++++++ size = 18
+[1] loss: 0.095 ,100.000%
+train_accu_best = 22.222%
+test_accu_best = 45.000%
+[61] loss: 0.090 ,94.723%
+train_accu_best = 27.778%
+test_accu_best = 50.000%
+[181] loss: 0.084 ,88.120%
+train_accu_best = 44.444%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 18 训练完成
++++++++++ size = 22
+[1] loss: 0.081 ,100.000%
+train_accu_best = 22.727%
+test_accu_best = 25.000%
+[11] loss: 0.075 ,92.802%
+train_accu_best = 13.636%
+test_accu_best = 45.000%
+[51] loss: 0.079 ,97.497%
+train_accu_best = 13.636%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 22 训练完成
++++++++++ size = 25
+[1] loss: 0.065 ,100.000%
+train_accu_best = 28.000%
+test_accu_best = 40.000%
+[41] loss: 0.066 ,101.411%
+train_accu_best = 28.000%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 25 训练完成
++++++++++ size = 29
+[1] loss: 0.057 ,100.000%
+train_accu_best = 24.138%
+test_accu_best = 40.000%
+[11] loss: 0.058 ,102.024%
+train_accu_best = 27.586%
+test_accu_best = 45.000%
+[41] loss: 0.059 ,103.759%
+train_accu_best = 24.138%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 29 训练完成
++++++++++ size = 33
+[1] loss: 0.068 ,100.000%
+train_accu_best = 30.303%
+test_accu_best = 40.000%
+[21] loss: 0.087 ,128.556%
+train_accu_best = 24.242%
+test_accu_best = 45.000%
+[31] loss: 0.083 ,122.400%
+train_accu_best = 30.303%
+test_accu_best = 50.000%
+[281] loss: 0.065 ,95.306%
+train_accu_best = 27.273%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 33 训练完成
++++++++++ size = 36
+[1] loss: 0.091 ,100.000%
+train_accu_best = 25.000%
+test_accu_best = 35.000%
+[21] loss: 0.089 ,97.605%
+train_accu_best = 19.444%
+test_accu_best = 40.000%
+[31] loss: 0.086 ,93.949%
+train_accu_best = 30.556%
+test_accu_best = 45.000%
+[41] loss: 0.079 ,86.405%
+train_accu_best = 33.333%
+test_accu_best = 50.000%
+[501] loss: 0.082 ,90.049%
+train_accu_best = 36.111%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 36 训练完成
++++++++++ size = 40
+[1] loss: 0.077 ,100.000%
+train_accu_best = 22.500%
+test_accu_best = 35.000%
+[11] loss: 0.082 ,107.448%
+train_accu_best = 17.500%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 40 训练完成
++++++++++ size = 44
+[1] loss: 0.076 ,100.000%
+train_accu_best = 20.455%
+test_accu_best = 45.000%
+[71] loss: 0.071 ,92.639%
+train_accu_best = 25.000%
+test_accu_best = 55.000%
+[411] loss: 0.064 ,84.063%
+train_accu_best = 34.091%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 44 训练完成
++++++++++ size = 47
+[1] loss: 0.069 ,100.000%
+train_accu_best = 29.787%
+test_accu_best = 40.000%
+[21] loss: 0.073 ,104.862%
+train_accu_best = 17.021%
+test_accu_best = 45.000%
+[71] loss: 0.066 ,94.947%
+train_accu_best = 27.660%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 47 训练完成
++++++++++ size = 51
+[1] loss: 0.062 ,100.000%
+train_accu_best = 23.529%
+test_accu_best = 30.000%
+[11] loss: 0.065 ,105.906%
+train_accu_best = 31.373%
+test_accu_best = 35.000%
+[21] loss: 0.061 ,98.413%
+train_accu_best = 29.412%
+test_accu_best = 45.000%
+[71] loss: 0.059 ,96.286%
+train_accu_best = 23.529%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 51 训练完成
++++++++++ size = 55
+[1] loss: 0.061 ,100.000%
+train_accu_best = 23.636%
+test_accu_best = 45.000%
+[21] loss: 0.059 ,96.332%
+train_accu_best = 29.091%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 55 训练完成
++++++++++ size = 58
+[1] loss: 0.058 ,100.000%
+train_accu_best = 20.690%
+test_accu_best = 45.000%
+[31] loss: 0.054 ,93.070%
+train_accu_best = 24.138%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 58 训练完成
++++++++++ size = 62
+[1] loss: 0.051 ,100.000%
+train_accu_best = 17.742%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 62 训练完成
++++++++++ size = 66
+[1] loss: 0.064 ,100.000%
+train_accu_best = 28.788%
+test_accu_best = 45.000%
+[11] loss: 0.066 ,102.206%
+train_accu_best = 21.212%
+test_accu_best = 50.000%
+[81] loss: 0.077 ,119.046%
+train_accu_best = 22.727%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 66 训练完成
++++++++++ size = 69
+[1] loss: 0.071 ,100.000%
+train_accu_best = 30.435%
+test_accu_best = 50.000%
+[81] loss: 0.060 ,85.119%
+train_accu_best = 21.739%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 69 训练完成
++++++++++ size = 73
+[1] loss: 0.067 ,100.000%
+train_accu_best = 26.027%
+test_accu_best = 45.000%
+[91] loss: 0.064 ,95.374%
+train_accu_best = 27.397%
+test_accu_best = 50.000%
+[111] loss: 0.062 ,92.244%
+train_accu_best = 31.507%
+test_accu_best = 55.000%
+[201] loss: 0.057 ,84.698%
+train_accu_best = 34.247%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 73 训练完成
++++++++++ size = 77
+[1] loss: 0.066 ,100.000%
+train_accu_best = 29.870%
+test_accu_best = 40.000%
+[21] loss: 0.064 ,96.670%
+train_accu_best = 29.870%
+test_accu_best = 55.000%
+[481] loss: 0.052 ,78.651%
+train_accu_best = 36.364%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 77 训练完成
++++++++++ size = 80
+[1] loss: 0.061 ,100.000%
+train_accu_best = 25.000%
+test_accu_best = 40.000%
+[11] loss: 0.060 ,98.866%
+train_accu_best = 26.250%
+test_accu_best = 45.000%
+[71] loss: 0.058 ,96.362%
+train_accu_best = 26.250%
+test_accu_best = 50.000%
+[101] loss: 0.055 ,90.339%
+train_accu_best = 32.500%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 80 训练完成
++++++++++ size = 84
+[1] loss: 0.061 ,100.000%
+train_accu_best = 28.571%
+test_accu_best = 35.000%
+[11] loss: 0.059 ,95.665%
+train_accu_best = 25.000%
+test_accu_best = 40.000%
+[31] loss: 0.058 ,94.983%
+train_accu_best = 22.619%
+test_accu_best = 50.000%
+[141] loss: 0.054 ,88.123%
+train_accu_best = 27.381%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 84 训练完成
++++++++++ size = 88
+[1] loss: 0.058 ,100.000%
+train_accu_best = 23.864%
+test_accu_best = 40.000%
+[11] loss: 0.056 ,97.348%
+train_accu_best = 25.000%
+test_accu_best = 50.000%
+[61] loss: 0.053 ,91.173%
+train_accu_best = 29.545%
+test_accu_best = 55.000%
+[251] loss: 0.049 ,84.473%
+train_accu_best = 25.000%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 88 训练完成
++++++++++ size = 91
+[1] loss: 0.056 ,100.000%
+train_accu_best = 24.176%
+test_accu_best = 45.000%
+[41] loss: 0.053 ,93.786%
+train_accu_best = 27.473%
+test_accu_best = 55.000%
+[51] loss: 0.052 ,92.919%
+train_accu_best = 24.176%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 91 训练完成
++++++++++ size = 95
+[1] loss: 0.054 ,100.000%
+train_accu_best = 22.105%
+test_accu_best = 35.000%
+[21] loss: 0.053 ,98.141%
+train_accu_best = 24.211%
+test_accu_best = 40.000%
+[31] loss: 0.051 ,94.802%
+train_accu_best = 28.421%
+test_accu_best = 45.000%
+[61] loss: 0.049 ,90.414%
+train_accu_best = 28.421%
+test_accu_best = 50.000%
+[101] loss: 0.047 ,87.137%
+train_accu_best = 27.368%
+test_accu_best = 55.000%
+[311] loss: 0.044 ,81.443%
+train_accu_best = 30.526%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 95 训练完成
++++++++++ size = 99
+[1] loss: 0.070 ,100.000%
+train_accu_best = 19.192%
+test_accu_best = 45.000%
+[51] loss: 0.070 ,99.501%
+train_accu_best = 28.283%
+test_accu_best = 55.000%
+[311] loss: 0.056 ,80.531%
+train_accu_best = 26.263%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 99 训练完成
++++++++++ size = 102
+[1] loss: 0.060 ,100.000%
+train_accu_best = 30.392%
+test_accu_best = 45.000%
+[161] loss: 0.056 ,93.222%
+train_accu_best = 28.431%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 102 训练完成
++++++++++ size = 106
+[1] loss: 0.058 ,100.000%
+train_accu_best = 22.642%
+test_accu_best = 40.000%
+[11] loss: 0.058 ,99.903%
+train_accu_best = 31.132%
+test_accu_best = 45.000%
+[171] loss: 0.055 ,93.636%
+train_accu_best = 31.132%
+test_accu_best = 50.000%
+[321] loss: 0.052 ,88.345%
+train_accu_best = 31.132%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 106 训练完成
++++++++++ size = 110
+[1] loss: 0.059 ,100.000%
+train_accu_best = 30.909%
+test_accu_best = 35.000%
+[11] loss: 0.060 ,101.164%
+train_accu_best = 30.000%
+test_accu_best = 50.000%
+[471] loss: 0.050 ,84.036%
+train_accu_best = 29.091%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 110 训练完成
++++++++++ size = 113
+[1] loss: 0.059 ,100.000%
+train_accu_best = 22.124%
+test_accu_best = 35.000%
+[11] loss: 0.059 ,100.730%
+train_accu_best = 31.858%
+test_accu_best = 50.000%
+[211] loss: 0.050 ,84.342%
+train_accu_best = 31.858%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 113 训练完成
++++++++++ size = 117
+[1] loss: 0.055 ,100.000%
+train_accu_best = 27.350%
+test_accu_best = 25.000%
+[11] loss: 0.054 ,98.746%
+train_accu_best = 28.205%
+test_accu_best = 40.000%
+[31] loss: 0.054 ,98.651%
+train_accu_best = 30.769%
+test_accu_best = 50.000%
+[181] loss: 0.049 ,90.284%
+train_accu_best = 33.333%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 117 训练完成
++++++++++ size = 121
+[1] loss: 0.055 ,100.000%
+train_accu_best = 33.884%
+test_accu_best = 30.000%
+[11] loss: 0.054 ,97.203%
+train_accu_best = 21.488%
+test_accu_best = 35.000%
+[31] loss: 0.052 ,93.691%
+train_accu_best = 30.579%
+test_accu_best = 50.000%
+[191] loss: 0.047 ,85.538%
+train_accu_best = 26.446%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 121 训练完成
++++++++++ size = 124
+[1] loss: 0.053 ,100.000%
+train_accu_best = 27.419%
+test_accu_best = 45.000%
+[51] loss: 0.051 ,95.621%
+train_accu_best = 28.226%
+test_accu_best = 55.000%
+[121] loss: 0.048 ,89.773%
+train_accu_best = 25.806%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 124 训练完成
++++++++++ size = 128
+[1] loss: 0.050 ,100.000%
+train_accu_best = 28.125%
+test_accu_best = 40.000%
+[11] loss: 0.050 ,99.603%
+train_accu_best = 28.125%
+test_accu_best = 45.000%
+[41] loss: 0.048 ,96.708%
+train_accu_best = 28.906%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 128 训练完成
++++++++++ size = 132
+[1] loss: 0.060 ,100.000%
+train_accu_best = 28.030%
+test_accu_best = 35.000%
+[11] loss: 0.062 ,103.770%
+train_accu_best = 24.242%
+test_accu_best = 40.000%
+[21] loss: 0.063 ,104.985%
+train_accu_best = 26.515%
+test_accu_best = 45.000%
+[51] loss: 0.056 ,93.806%
+train_accu_best = 30.303%
+test_accu_best = 50.000%
+[71] loss: 0.055 ,91.912%
+train_accu_best = 28.030%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 132 训练完成
++++++++++ size = 135
+[1] loss: 0.062 ,100.000%
+train_accu_best = 30.370%
+test_accu_best = 45.000%
+[81] loss: 0.055 ,89.403%
+train_accu_best = 31.111%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 135 训练完成
++++++++++ size = 139
+[1] loss: 0.059 ,100.000%
+train_accu_best = 31.655%
+test_accu_best = 50.000%
+[11] loss: 0.059 ,99.824%
+train_accu_best = 30.935%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 139 训练完成
++++++++++ size = 143
+[1] loss: 0.059 ,100.000%
+train_accu_best = 30.070%
+test_accu_best = 45.000%
+[41] loss: 0.054 ,91.472%
+train_accu_best = 26.573%
+test_accu_best = 55.000%
+[181] loss: 0.049 ,83.781%
+train_accu_best = 32.168%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 143 训练完成
++++++++++ size = 146
+[1] loss: 0.054 ,100.000%
+train_accu_best = 28.082%
+test_accu_best = 40.000%
+[11] loss: 0.056 ,104.548%
+train_accu_best = 27.397%
+test_accu_best = 45.000%
+[41] loss: 0.051 ,95.829%
+train_accu_best = 28.082%
+test_accu_best = 50.000%
+[201] loss: 0.048 ,89.283%
+train_accu_best = 23.973%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 146 训练完成
++++++++++ size = 150
+[1] loss: 0.054 ,100.000%
+train_accu_best = 28.000%
+test_accu_best = 30.000%
+[11] loss: 0.053 ,99.302%
+train_accu_best = 26.000%
+test_accu_best = 45.000%
+[61] loss: 0.050 ,92.854%
+train_accu_best = 26.667%
+test_accu_best = 50.000%
+[361] loss: 0.046 ,85.496%
+train_accu_best = 27.333%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 150 训练完成
++++++++++ size = 154
+[1] loss: 0.051 ,100.000%
+train_accu_best = 27.922%
+test_accu_best = 35.000%
+[21] loss: 0.051 ,100.751%
+train_accu_best = 28.571%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 154 训练完成
++++++++++ size = 157
+[1] loss: 0.052 ,100.000%
+train_accu_best = 31.210%
+test_accu_best = 35.000%
+[21] loss: 0.050 ,96.097%
+train_accu_best = 29.936%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 157 训练完成
++++++++++ size = 161
+[1] loss: 0.062 ,100.000%
+train_accu_best = 29.193%
+test_accu_best = 35.000%
+[11] loss: 0.061 ,98.087%
+train_accu_best = 26.087%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 161 训练完成
++++++++++ size = 165
+[1] loss: 0.060 ,100.000%
+train_accu_best = 29.091%
+test_accu_best = 40.000%
+[11] loss: 0.060 ,99.845%
+train_accu_best = 28.485%
+test_accu_best = 45.000%
+[131] loss: 0.050 ,83.017%
+train_accu_best = 29.697%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 165 训练完成
++++++++++ size = 168
+[1] loss: 0.059 ,100.000%
+train_accu_best = 27.381%
+test_accu_best = 40.000%
+[21] loss: 0.059 ,99.286%
+train_accu_best = 27.381%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 168 训练完成
++++++++++ size = 172
+[1] loss: 0.058 ,100.000%
+train_accu_best = 26.744%
+test_accu_best = 50.000%
+[81] loss: 0.053 ,90.060%
+train_accu_best = 27.907%
+test_accu_best = 60.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 172 训练完成
++++++++++ size = 176
+[1] loss: 0.055 ,100.000%
+train_accu_best = 27.841%
+test_accu_best = 40.000%
+[31] loss: 0.053 ,97.612%
+train_accu_best = 28.977%
+test_accu_best = 45.000%
+[71] loss: 0.051 ,92.994%
+train_accu_best = 27.841%
+test_accu_best = 50.000%
+[181] loss: 0.047 ,86.644%
+train_accu_best = 34.091%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 176 训练完成
++++++++++ size = 180
+[1] loss: 0.053 ,100.000%
+train_accu_best = 30.000%
+test_accu_best = 40.000%
+[31] loss: 0.051 ,96.767%
+train_accu_best = 31.111%
+test_accu_best = 45.000%
+[61] loss: 0.049 ,92.511%
+train_accu_best = 27.778%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：pbl 训练集容量 180 训练完成
+LSTM_cross_subject_4class_fine_Net47：pbl : 测试集准确率  0.500%
+------------------
+wrd 的训练情况：
++++++++++ size = 0
+test_accu_best = 20.000%
++++++++++ size = 3
+[1] loss: 0.324 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 20.000%
+[21] loss: 0.392 ,121.240%
+train_accu_best = 33.333%
+test_accu_best = 25.000%
+[31] loss: 0.337 ,104.100%
+train_accu_best = 33.333%
+test_accu_best = 30.000%
+[121] loss: 0.477 ,147.591%
+train_accu_best = 33.333%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 3 训练完成
++++++++++ size = 7
+[1] loss: 0.291 ,100.000%
+train_accu_best = 28.571%
+test_accu_best = 25.000%
+[591] loss: 0.162 ,55.696%
+train_accu_best = 57.143%
+test_accu_best = 30.000%
+[671] loss: 0.165 ,56.782%
+train_accu_best = 71.429%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 7 训练完成
++++++++++ size = 11
+[1] loss: 0.168 ,100.000%
+train_accu_best = 18.182%
+test_accu_best = 30.000%
+[71] loss: 0.158 ,94.102%
+train_accu_best = 27.273%
+test_accu_best = 35.000%
+[631] loss: 0.125 ,74.079%
+train_accu_best = 72.727%
+test_accu_best = 40.000%
+[711] loss: 0.115 ,68.310%
+train_accu_best = 63.636%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 11 训练完成
++++++++++ size = 14
+[1] loss: 0.115 ,100.000%
+train_accu_best = 21.429%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 14 训练完成
++++++++++ size = 18
+[1] loss: 0.112 ,100.000%
+train_accu_best = 22.222%
+test_accu_best = 20.000%
+[11] loss: 0.117 ,104.560%
+train_accu_best = 22.222%
+test_accu_best = 35.000%
+[31] loss: 0.121 ,108.038%
+train_accu_best = 33.333%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 18 训练完成
++++++++++ size = 22
+[1] loss: 0.085 ,100.000%
+train_accu_best = 27.273%
+test_accu_best = 20.000%
+[21] loss: 0.082 ,96.314%
+train_accu_best = 31.818%
+test_accu_best = 30.000%
+[581] loss: 0.060 ,70.922%
+train_accu_best = 45.455%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 22 训练完成
++++++++++ size = 25
+[1] loss: 0.070 ,100.000%
+train_accu_best = 28.000%
+test_accu_best = 20.000%
+[11] loss: 0.071 ,101.497%
+train_accu_best = 20.000%
+test_accu_best = 25.000%
+[31] loss: 0.074 ,105.433%
+train_accu_best = 24.000%
+test_accu_best = 30.000%
+[71] loss: 0.075 ,107.427%
+train_accu_best = 32.000%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 25 训练完成
++++++++++ size = 29
+[1] loss: 0.066 ,100.000%
+train_accu_best = 20.690%
+test_accu_best = 25.000%
+[111] loss: 0.057 ,86.441%
+train_accu_best = 37.931%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 29 训练完成
++++++++++ size = 33
+[1] loss: 0.140 ,100.000%
+train_accu_best = 24.242%
+test_accu_best = 25.000%
+[111] loss: 0.201 ,143.737%
+train_accu_best = 33.333%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 33 训练完成
++++++++++ size = 36
+[1] loss: 0.109 ,100.000%
+train_accu_best = 30.556%
+test_accu_best = 20.000%
+[11] loss: 0.104 ,94.971%
+train_accu_best = 27.778%
+test_accu_best = 30.000%
+[271] loss: 0.068 ,61.854%
+train_accu_best = 47.222%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 36 训练完成
++++++++++ size = 40
+[1] loss: 0.087 ,100.000%
+train_accu_best = 27.500%
+test_accu_best = 20.000%
+[21] loss: 0.094 ,108.094%
+train_accu_best = 17.500%
+test_accu_best = 25.000%
+[31] loss: 0.090 ,103.118%
+train_accu_best = 27.500%
+test_accu_best = 30.000%
+[241] loss: 0.081 ,93.121%
+train_accu_best = 30.000%
+test_accu_best = 35.000%
+[401] loss: 0.072 ,81.953%
+train_accu_best = 27.500%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 40 训练完成
++++++++++ size = 44
+[1] loss: 0.101 ,100.000%
+train_accu_best = 22.727%
+test_accu_best = 20.000%
+[11] loss: 0.087 ,86.076%
+train_accu_best = 20.455%
+test_accu_best = 30.000%
+[21] loss: 0.089 ,88.552%
+train_accu_best = 18.182%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 44 训练完成
++++++++++ size = 47
+[1] loss: 0.092 ,100.000%
+train_accu_best = 21.277%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 47 训练完成
++++++++++ size = 51
+[1] loss: 0.080 ,100.000%
+train_accu_best = 21.569%
+test_accu_best = 20.000%
+[11] loss: 0.072 ,90.010%
+train_accu_best = 23.529%
+test_accu_best = 30.000%
+[31] loss: 0.072 ,90.085%
+train_accu_best = 29.412%
+test_accu_best = 35.000%
+[791] loss: 0.049 ,60.932%
+train_accu_best = 39.216%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 51 训练完成
++++++++++ size = 55
+[1] loss: 0.066 ,100.000%
+train_accu_best = 29.091%
+test_accu_best = 20.000%
+[11] loss: 0.064 ,97.547%
+train_accu_best = 23.636%
+test_accu_best = 25.000%
+[51] loss: 0.067 ,102.761%
+train_accu_best = 25.455%
+test_accu_best = 30.000%
+[61] loss: 0.062 ,95.337%
+train_accu_best = 30.909%
+test_accu_best = 35.000%
+[581] loss: 0.046 ,70.357%
+train_accu_best = 27.273%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 55 训练完成
++++++++++ size = 58
+[1] loss: 0.068 ,100.000%
+train_accu_best = 29.310%
+test_accu_best = 25.000%
+[21] loss: 0.063 ,92.751%
+train_accu_best = 20.690%
+test_accu_best = 35.000%
+[111] loss: 0.059 ,85.985%
+train_accu_best = 20.690%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 58 训练完成
++++++++++ size = 62
+[1] loss: 0.064 ,100.000%
+train_accu_best = 29.032%
+test_accu_best = 20.000%
+[11] loss: 0.058 ,90.941%
+train_accu_best = 24.194%
+test_accu_best = 25.000%
+[31] loss: 0.054 ,84.202%
+train_accu_best = 29.032%
+test_accu_best = 30.000%
+[81] loss: 0.058 ,90.983%
+train_accu_best = 27.419%
+test_accu_best = 35.000%
+[321] loss: 0.047 ,74.327%
+train_accu_best = 30.645%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 62 训练完成
++++++++++ size = 66
+[1] loss: 0.071 ,100.000%
+train_accu_best = 25.758%
+test_accu_best = 25.000%
+[11] loss: 0.093 ,130.623%
+train_accu_best = 30.303%
+test_accu_best = 30.000%
+[161] loss: 0.083 ,116.789%
+train_accu_best = 40.909%
+test_accu_best = 35.000%
+[271] loss: 0.055 ,77.470%
+train_accu_best = 27.273%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 66 训练完成
++++++++++ size = 69
+[1] loss: 0.074 ,100.000%
+train_accu_best = 24.638%
+test_accu_best = 15.000%
+[21] loss: 0.083 ,112.731%
+train_accu_best = 24.638%
+test_accu_best = 20.000%
+[31] loss: 0.074 ,100.997%
+train_accu_best = 28.986%
+test_accu_best = 40.000%
+[371] loss: 0.058 ,78.861%
+train_accu_best = 30.435%
+test_accu_best = 45.000%
+[391] loss: 0.060 ,81.179%
+train_accu_best = 23.188%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 69 训练完成
++++++++++ size = 73
+[1] loss: 0.071 ,100.000%
+train_accu_best = 27.397%
+test_accu_best = 25.000%
+[61] loss: 0.075 ,105.672%
+train_accu_best = 35.616%
+test_accu_best = 30.000%
+[71] loss: 0.065 ,92.794%
+train_accu_best = 35.616%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 73 训练完成
++++++++++ size = 77
+[1] loss: 0.069 ,100.000%
+train_accu_best = 35.065%
+test_accu_best = 15.000%
+[11] loss: 0.060 ,87.006%
+train_accu_best = 32.468%
+test_accu_best = 25.000%
+[61] loss: 0.062 ,89.180%
+train_accu_best = 32.468%
+test_accu_best = 30.000%
+[71] loss: 0.065 ,94.317%
+train_accu_best = 29.870%
+test_accu_best = 40.000%
+[631] loss: 0.051 ,74.091%
+train_accu_best = 32.468%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 77 训练完成
++++++++++ size = 80
+[1] loss: 0.067 ,100.000%
+train_accu_best = 25.000%
+test_accu_best = 30.000%
+[61] loss: 0.059 ,88.474%
+train_accu_best = 27.500%
+test_accu_best = 35.000%
+[261] loss: 0.051 ,76.164%
+train_accu_best = 40.000%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 80 训练完成
++++++++++ size = 84
+[1] loss: 0.064 ,100.000%
+train_accu_best = 30.952%
+test_accu_best = 15.000%
+[11] loss: 0.058 ,91.069%
+train_accu_best = 33.333%
+test_accu_best = 20.000%
+[41] loss: 0.064 ,99.760%
+train_accu_best = 29.762%
+test_accu_best = 25.000%
+[71] loss: 0.057 ,89.533%
+train_accu_best = 36.905%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 84 训练完成
++++++++++ size = 88
+[1] loss: 0.062 ,100.000%
+train_accu_best = 22.727%
+test_accu_best = 25.000%
+[81] loss: 0.055 ,88.827%
+train_accu_best = 30.682%
+test_accu_best = 30.000%
+[151] loss: 0.051 ,82.311%
+train_accu_best = 34.091%
+test_accu_best = 35.000%
+[211] loss: 0.052 ,84.118%
+train_accu_best = 38.636%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 88 训练完成
++++++++++ size = 91
+[1] loss: 0.055 ,100.000%
+train_accu_best = 28.571%
+test_accu_best = 15.000%
+[11] loss: 0.059 ,105.805%
+train_accu_best = 29.670%
+test_accu_best = 25.000%
+[41] loss: 0.057 ,103.493%
+train_accu_best = 30.769%
+test_accu_best = 30.000%
+[181] loss: 0.049 ,87.664%
+train_accu_best = 36.264%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 91 训练完成
++++++++++ size = 95
+[1] loss: 0.055 ,100.000%
+train_accu_best = 28.421%
+test_accu_best = 25.000%
+[21] loss: 0.054 ,98.124%
+train_accu_best = 27.368%
+test_accu_best = 30.000%
+[161] loss: 0.045 ,81.830%
+train_accu_best = 33.684%
+test_accu_best = 35.000%
+[321] loss: 0.042 ,76.089%
+train_accu_best = 26.316%
+test_accu_best = 40.000%
+[661] loss: 0.041 ,73.524%
+train_accu_best = 36.842%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 95 训练完成
++++++++++ size = 99
+[1] loss: 0.061 ,100.000%
+train_accu_best = 26.263%
+test_accu_best = 25.000%
+[21] loss: 0.068 ,111.207%
+train_accu_best = 29.293%
+test_accu_best = 30.000%
+[61] loss: 0.065 ,107.620%
+train_accu_best = 38.384%
+test_accu_best = 35.000%
+[291] loss: 0.051 ,84.257%
+train_accu_best = 33.333%
+test_accu_best = 40.000%
+[761] loss: 0.052 ,85.082%
+train_accu_best = 35.354%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 99 训练完成
++++++++++ size = 102
+[1] loss: 0.064 ,100.000%
+train_accu_best = 29.412%
+test_accu_best = 15.000%
+[11] loss: 0.066 ,103.314%
+train_accu_best = 29.412%
+test_accu_best = 25.000%
+[31] loss: 0.060 ,94.193%
+train_accu_best = 29.412%
+test_accu_best = 30.000%
+[181] loss: 0.055 ,85.987%
+train_accu_best = 31.373%
+test_accu_best = 40.000%
+[401] loss: 0.051 ,79.554%
+train_accu_best = 38.235%
+test_accu_best = 45.000%
+[791] loss: 0.051 ,80.664%
+train_accu_best = 43.137%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 102 训练完成
++++++++++ size = 106
+[1] loss: 0.066 ,100.000%
+train_accu_best = 34.906%
+test_accu_best = 30.000%
+[111] loss: 0.059 ,89.001%
+train_accu_best = 29.245%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 106 训练完成
++++++++++ size = 110
+[1] loss: 0.064 ,100.000%
+train_accu_best = 30.000%
+test_accu_best = 25.000%
+[21] loss: 0.059 ,91.766%
+train_accu_best = 30.000%
+test_accu_best = 30.000%
+[101] loss: 0.055 ,85.404%
+train_accu_best = 33.636%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 110 训练完成
++++++++++ size = 113
+[1] loss: 0.063 ,100.000%
+train_accu_best = 32.743%
+test_accu_best = 15.000%
+[11] loss: 0.062 ,98.971%
+train_accu_best = 28.319%
+test_accu_best = 30.000%
+[171] loss: 0.050 ,80.698%
+train_accu_best = 36.283%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 113 训练完成
++++++++++ size = 117
+[1] loss: 0.057 ,100.000%
+train_accu_best = 35.897%
+test_accu_best = 20.000%
+[11] loss: 0.059 ,104.072%
+train_accu_best = 35.043%
+test_accu_best = 25.000%
+[21] loss: 0.056 ,98.344%
+train_accu_best = 33.333%
+test_accu_best = 35.000%
+[171] loss: 0.051 ,88.979%
+train_accu_best = 35.043%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 117 训练完成
++++++++++ size = 121
+[1] loss: 0.056 ,100.000%
+train_accu_best = 33.058%
+test_accu_best = 20.000%
+[31] loss: 0.057 ,101.749%
+train_accu_best = 31.405%
+test_accu_best = 25.000%
+[51] loss: 0.055 ,98.254%
+train_accu_best = 40.496%
+test_accu_best = 30.000%
+[101] loss: 0.052 ,92.290%
+train_accu_best = 33.884%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 121 训练完成
++++++++++ size = 124
+[1] loss: 0.056 ,100.000%
+train_accu_best = 29.032%
+test_accu_best = 20.000%
+[21] loss: 0.055 ,98.668%
+train_accu_best = 29.839%
+test_accu_best = 25.000%
+[41] loss: 0.052 ,92.580%
+train_accu_best = 31.452%
+test_accu_best = 30.000%
+[111] loss: 0.049 ,87.924%
+train_accu_best = 32.258%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 124 训练完成
++++++++++ size = 128
+[1] loss: 0.053 ,100.000%
+train_accu_best = 34.375%
+test_accu_best = 20.000%
+[31] loss: 0.052 ,99.092%
+train_accu_best = 32.031%
+test_accu_best = 25.000%
+[51] loss: 0.051 ,96.698%
+train_accu_best = 31.250%
+test_accu_best = 30.000%
+[321] loss: 0.042 ,79.965%
+train_accu_best = 36.719%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 128 训练完成
++++++++++ size = 132
+[1] loss: 0.068 ,100.000%
+train_accu_best = 31.818%
+test_accu_best = 35.000%
+[191] loss: 0.052 ,75.880%
+train_accu_best = 31.061%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 132 训练完成
++++++++++ size = 135
+[1] loss: 0.068 ,100.000%
+train_accu_best = 34.074%
+test_accu_best = 20.000%
+[21] loss: 0.066 ,97.897%
+train_accu_best = 34.074%
+test_accu_best = 30.000%
+[131] loss: 0.056 ,82.187%
+train_accu_best = 31.852%
+test_accu_best = 35.000%
+[361] loss: 0.049 ,71.776%
+train_accu_best = 31.852%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 135 训练完成
++++++++++ size = 139
+[1] loss: 0.062 ,100.000%
+train_accu_best = 33.094%
+test_accu_best = 10.000%
+[11] loss: 0.062 ,100.152%
+train_accu_best = 30.935%
+test_accu_best = 20.000%
+[21] loss: 0.057 ,91.247%
+train_accu_best = 30.935%
+test_accu_best = 35.000%
+[41] loss: 0.060 ,96.311%
+train_accu_best = 31.655%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 139 训练完成
++++++++++ size = 143
+[1] loss: 0.057 ,100.000%
+train_accu_best = 33.566%
+test_accu_best = 25.000%
+[21] loss: 0.057 ,101.124%
+train_accu_best = 30.070%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 143 训练完成
++++++++++ size = 146
+[1] loss: 0.061 ,100.000%
+train_accu_best = 34.247%
+test_accu_best = 5.000%
+[11] loss: 0.058 ,95.784%
+train_accu_best = 30.822%
+test_accu_best = 30.000%
+[141] loss: 0.049 ,80.956%
+train_accu_best = 37.671%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 146 训练完成
++++++++++ size = 150
+[1] loss: 0.057 ,100.000%
+train_accu_best = 27.333%
+test_accu_best = 35.000%
+[171] loss: 0.047 ,81.529%
+train_accu_best = 37.333%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 150 训练完成
++++++++++ size = 154
+[1] loss: 0.059 ,100.000%
+train_accu_best = 27.273%
+test_accu_best = 30.000%
+[121] loss: 0.048 ,81.752%
+train_accu_best = 37.013%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 154 训练完成
++++++++++ size = 157
+[1] loss: 0.055 ,100.000%
+train_accu_best = 30.573%
+test_accu_best = 30.000%
+[61] loss: 0.050 ,91.288%
+train_accu_best = 32.484%
+test_accu_best = 40.000%
+[501] loss: 0.042 ,75.807%
+train_accu_best = 36.306%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 157 训练完成
++++++++++ size = 161
+[1] loss: 0.063 ,100.000%
+train_accu_best = 29.193%
+test_accu_best = 20.000%
+[11] loss: 0.063 ,100.151%
+train_accu_best = 32.919%
+test_accu_best = 35.000%
+[241] loss: 0.050 ,78.491%
+train_accu_best = 36.025%
+test_accu_best = 40.000%
+[491] loss: 0.051 ,80.117%
+train_accu_best = 34.783%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 161 训练完成
++++++++++ size = 165
+[1] loss: 0.062 ,100.000%
+train_accu_best = 34.545%
+test_accu_best = 30.000%
+[141] loss: 0.049 ,79.505%
+train_accu_best = 35.152%
+test_accu_best = 35.000%
+[461] loss: 0.048 ,77.678%
+train_accu_best = 36.970%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 165 训练完成
++++++++++ size = 168
+[1] loss: 0.064 ,100.000%
+train_accu_best = 27.381%
+test_accu_best = 25.000%
+[11] loss: 0.059 ,92.088%
+train_accu_best = 32.738%
+test_accu_best = 30.000%
+[121] loss: 0.053 ,81.541%
+train_accu_best = 38.690%
+test_accu_best = 35.000%
+[261] loss: 0.049 ,75.444%
+train_accu_best = 36.310%
+test_accu_best = 40.000%
+[461] loss: 0.046 ,71.693%
+train_accu_best = 36.310%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 168 训练完成
++++++++++ size = 172
+[1] loss: 0.060 ,100.000%
+train_accu_best = 37.791%
+test_accu_best = 15.000%
+[11] loss: 0.057 ,94.351%
+train_accu_best = 33.140%
+test_accu_best = 25.000%
+[231] loss: 0.047 ,77.108%
+train_accu_best = 33.140%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 172 训练完成
++++++++++ size = 176
+[1] loss: 0.058 ,100.000%
+train_accu_best = 31.250%
+test_accu_best = 25.000%
+[11] loss: 0.058 ,99.211%
+train_accu_best = 30.682%
+test_accu_best = 35.000%
+[161] loss: 0.047 ,80.177%
+train_accu_best = 34.091%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 176 训练完成
++++++++++ size = 180
+[1] loss: 0.058 ,100.000%
+train_accu_best = 27.778%
+test_accu_best = 25.000%
+[71] loss: 0.050 ,85.487%
+train_accu_best = 35.556%
+test_accu_best = 40.000%
+[191] loss: 0.045 ,77.593%
+train_accu_best = 34.444%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wrd 训练集容量 180 训练完成
+LSTM_cross_subject_4class_fine_Net47：wrd : 测试集准确率  0.450%
+------------------
+wxc 的训练情况：
++++++++++ size = 0
+test_accu_best = 35.000%
++++++++++ size = 3
+[1] loss: 0.256 ,100.000%
+train_accu_best = 100.000%
+test_accu_best = 25.000%
+[11] loss: 0.187 ,72.885%
+train_accu_best = 66.667%
+test_accu_best = 30.000%
+[21] loss: 0.389 ,151.799%
+train_accu_best = 66.667%
+test_accu_best = 40.000%
+[151] loss: 0.322 ,125.721%
+train_accu_best = 66.667%
+test_accu_best = 45.000%
+[761] loss: 0.104 ,40.713%
+train_accu_best = 100.000%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 3 训练完成
++++++++++ size = 7
+[1] loss: 0.178 ,100.000%
+train_accu_best = 42.857%
+test_accu_best = 25.000%
+[31] loss: 0.176 ,98.882%
+train_accu_best = 57.143%
+test_accu_best = 40.000%
+[681] loss: 0.148 ,83.076%
+train_accu_best = 71.429%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 7 训练完成
++++++++++ size = 11
+[1] loss: 0.139 ,100.000%
+train_accu_best = 27.273%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 11 训练完成
++++++++++ size = 14
+[1] loss: 0.125 ,100.000%
+train_accu_best = 35.714%
+test_accu_best = 20.000%
+[31] loss: 0.145 ,115.636%
+train_accu_best = 28.571%
+test_accu_best = 25.000%
+[51] loss: 0.114 ,91.234%
+train_accu_best = 28.571%
+test_accu_best = 35.000%
+[411] loss: 0.109 ,86.794%
+train_accu_best = 50.000%
+test_accu_best = 40.000%
+[751] loss: 0.091 ,72.375%
+train_accu_best = 42.857%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 14 训练完成
++++++++++ size = 18
+[1] loss: 0.104 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 30.000%
+[11] loss: 0.097 ,93.140%
+train_accu_best = 38.889%
+test_accu_best = 35.000%
+[91] loss: 0.101 ,96.998%
+train_accu_best = 33.333%
+test_accu_best = 40.000%
+[321] loss: 0.095 ,91.689%
+train_accu_best = 33.333%
+test_accu_best = 45.000%
+[331] loss: 0.089 ,86.030%
+train_accu_best = 44.444%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 18 训练完成
++++++++++ size = 22
+[1] loss: 0.083 ,100.000%
+train_accu_best = 31.818%
+test_accu_best = 30.000%
+[41] loss: 0.086 ,103.786%
+train_accu_best = 40.909%
+test_accu_best = 35.000%
+[61] loss: 0.090 ,108.502%
+train_accu_best = 31.818%
+test_accu_best = 40.000%
+[711] loss: 0.063 ,76.100%
+train_accu_best = 40.909%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 22 训练完成
++++++++++ size = 25
+[1] loss: 0.073 ,100.000%
+train_accu_best = 36.000%
+test_accu_best = 35.000%
+[141] loss: 0.076 ,103.292%
+train_accu_best = 32.000%
+test_accu_best = 40.000%
+[511] loss: 0.058 ,79.235%
+train_accu_best = 32.000%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 25 训练完成
++++++++++ size = 29
+[1] loss: 0.064 ,100.000%
+train_accu_best = 31.034%
+test_accu_best = 30.000%
+[31] loss: 0.065 ,101.639%
+train_accu_best = 34.483%
+test_accu_best = 35.000%
+[41] loss: 0.061 ,95.123%
+train_accu_best = 20.690%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 29 训练完成
++++++++++ size = 33
+[1] loss: 0.169 ,100.000%
+train_accu_best = 24.242%
+test_accu_best = 30.000%
+[31] loss: 0.092 ,54.195%
+train_accu_best = 30.303%
+test_accu_best = 35.000%
+[71] loss: 0.116 ,68.827%
+train_accu_best = 30.303%
+test_accu_best = 40.000%
+[521] loss: 0.091 ,54.099%
+train_accu_best = 33.333%
+test_accu_best = 45.000%
+[771] loss: 0.078 ,46.298%
+train_accu_best = 36.364%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 33 训练完成
++++++++++ size = 36
+[1] loss: 0.104 ,100.000%
+train_accu_best = 38.889%
+test_accu_best = 30.000%
+[31] loss: 0.111 ,107.116%
+train_accu_best = 25.000%
+test_accu_best = 35.000%
+[251] loss: 0.111 ,107.148%
+train_accu_best = 19.444%
+test_accu_best = 40.000%
+[281] loss: 0.080 ,77.021%
+train_accu_best = 27.778%
+test_accu_best = 45.000%
+[641] loss: 0.076 ,73.535%
+train_accu_best = 25.000%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 36 训练完成
++++++++++ size = 40
+[1] loss: 0.093 ,100.000%
+train_accu_best = 30.000%
+test_accu_best = 30.000%
+[11] loss: 0.105 ,111.956%
+train_accu_best = 27.500%
+test_accu_best = 40.000%
+[281] loss: 0.086 ,91.560%
+train_accu_best = 30.000%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 40 训练完成
++++++++++ size = 44
+[1] loss: 0.109 ,100.000%
+train_accu_best = 20.455%
+test_accu_best = 30.000%
+[11] loss: 0.117 ,107.030%
+train_accu_best = 18.182%
+test_accu_best = 35.000%
+[91] loss: 0.084 ,77.442%
+train_accu_best = 27.273%
+test_accu_best = 40.000%
+[221] loss: 0.072 ,66.192%
+train_accu_best = 15.909%
+test_accu_best = 45.000%
+[261] loss: 0.071 ,65.274%
+train_accu_best = 25.000%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 44 训练完成
++++++++++ size = 47
+[1] loss: 0.087 ,100.000%
+train_accu_best = 27.660%
+test_accu_best = 45.000%
+[771] loss: 0.053 ,61.313%
+train_accu_best = 42.553%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 47 训练完成
++++++++++ size = 51
+[1] loss: 0.086 ,100.000%
+train_accu_best = 25.490%
+test_accu_best = 35.000%
+[61] loss: 0.083 ,96.506%
+train_accu_best = 23.529%
+test_accu_best = 40.000%
+[141] loss: 0.069 ,80.237%
+train_accu_best = 25.490%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 51 训练完成
++++++++++ size = 55
+[1] loss: 0.079 ,100.000%
+train_accu_best = 27.273%
+test_accu_best = 20.000%
+[11] loss: 0.075 ,95.251%
+train_accu_best = 25.455%
+test_accu_best = 30.000%
+[21] loss: 0.077 ,96.988%
+train_accu_best = 21.818%
+test_accu_best = 35.000%
+[101] loss: 0.067 ,85.417%
+train_accu_best = 27.273%
+test_accu_best = 40.000%
+[311] loss: 0.057 ,72.270%
+train_accu_best = 21.818%
+test_accu_best = 45.000%
+[421] loss: 0.056 ,70.737%
+train_accu_best = 16.364%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 55 训练完成
++++++++++ size = 58
+[1] loss: 0.068 ,100.000%
+train_accu_best = 25.862%
+test_accu_best = 20.000%
+[11] loss: 0.073 ,108.515%
+train_accu_best = 27.586%
+test_accu_best = 25.000%
+[21] loss: 0.072 ,106.275%
+train_accu_best = 29.310%
+test_accu_best = 30.000%
+[71] loss: 0.069 ,101.762%
+train_accu_best = 17.241%
+test_accu_best = 35.000%
+[141] loss: 0.062 ,92.286%
+train_accu_best = 24.138%
+test_accu_best = 40.000%
+[161] loss: 0.059 ,87.844%
+train_accu_best = 20.690%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 58 训练完成
++++++++++ size = 62
+[1] loss: 0.073 ,100.000%
+train_accu_best = 27.419%
+test_accu_best = 30.000%
+[61] loss: 0.067 ,91.689%
+train_accu_best = 22.581%
+test_accu_best = 35.000%
+[161] loss: 0.057 ,78.472%
+train_accu_best = 20.968%
+test_accu_best = 40.000%
+[291] loss: 0.052 ,72.007%
+train_accu_best = 19.355%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 62 训练完成
++++++++++ size = 66
+[1] loss: 0.083 ,100.000%
+train_accu_best = 24.242%
+test_accu_best = 35.000%
+[51] loss: 0.121 ,145.994%
+train_accu_best = 25.758%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 66 训练完成
++++++++++ size = 69
+[1] loss: 0.099 ,100.000%
+train_accu_best = 21.739%
+test_accu_best = 25.000%
+[11] loss: 0.109 ,110.101%
+train_accu_best = 24.638%
+test_accu_best = 30.000%
+[21] loss: 0.084 ,85.226%
+train_accu_best = 23.188%
+test_accu_best = 35.000%
+[31] loss: 0.085 ,86.238%
+train_accu_best = 18.841%
+test_accu_best = 40.000%
+[161] loss: 0.077 ,78.550%
+train_accu_best = 27.536%
+test_accu_best = 50.000%
+[691] loss: 0.058 ,58.342%
+train_accu_best = 37.681%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 69 训练完成
++++++++++ size = 73
+[1] loss: 0.087 ,100.000%
+train_accu_best = 23.288%
+test_accu_best = 35.000%
+[51] loss: 0.079 ,90.537%
+train_accu_best = 23.288%
+test_accu_best = 40.000%
+[131] loss: 0.079 ,91.461%
+train_accu_best = 23.288%
+test_accu_best = 45.000%
+[521] loss: 0.054 ,62.295%
+train_accu_best = 32.877%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 73 训练完成
++++++++++ size = 77
+[1] loss: 0.076 ,100.000%
+train_accu_best = 22.078%
+test_accu_best = 25.000%
+[21] loss: 0.081 ,105.722%
+train_accu_best = 24.675%
+test_accu_best = 35.000%
+[41] loss: 0.073 ,95.612%
+train_accu_best = 23.377%
+test_accu_best = 40.000%
+[141] loss: 0.068 ,89.173%
+train_accu_best = 19.481%
+test_accu_best = 50.000%
+[531] loss: 0.053 ,69.736%
+train_accu_best = 37.662%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 77 训练完成
++++++++++ size = 80
+[1] loss: 0.075 ,100.000%
+train_accu_best = 22.500%
+test_accu_best = 25.000%
+[11] loss: 0.076 ,100.978%
+train_accu_best = 21.250%
+test_accu_best = 30.000%
+[21] loss: 0.078 ,103.384%
+train_accu_best = 23.750%
+test_accu_best = 35.000%
+[231] loss: 0.059 ,78.075%
+train_accu_best = 20.000%
+test_accu_best = 40.000%
+[251] loss: 0.057 ,75.598%
+train_accu_best = 21.250%
+test_accu_best = 45.000%
+[651] loss: 0.050 ,66.127%
+train_accu_best = 30.000%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 80 训练完成
++++++++++ size = 84
+[1] loss: 0.073 ,100.000%
+train_accu_best = 25.000%
+test_accu_best = 30.000%
+[11] loss: 0.069 ,95.110%
+train_accu_best = 22.619%
+test_accu_best = 45.000%
+[601] loss: 0.048 ,65.451%
+train_accu_best = 33.333%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 84 训练完成
++++++++++ size = 88
+[1] loss: 0.073 ,100.000%
+train_accu_best = 22.727%
+test_accu_best = 30.000%
+[11] loss: 0.070 ,96.447%
+train_accu_best = 26.136%
+test_accu_best = 35.000%
+[71] loss: 0.064 ,87.678%
+train_accu_best = 26.136%
+test_accu_best = 40.000%
+[251] loss: 0.051 ,70.629%
+train_accu_best = 23.864%
+test_accu_best = 45.000%
+[521] loss: 0.046 ,63.721%
+train_accu_best = 34.091%
+test_accu_best = 50.000%
+[621] loss: 0.045 ,62.316%
+train_accu_best = 34.091%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 88 训练完成
++++++++++ size = 91
+[1] loss: 0.070 ,100.000%
+train_accu_best = 27.473%
+test_accu_best = 30.000%
+[11] loss: 0.066 ,94.804%
+train_accu_best = 24.176%
+test_accu_best = 35.000%
+[101] loss: 0.060 ,85.528%
+train_accu_best = 20.879%
+test_accu_best = 40.000%
+[451] loss: 0.045 ,63.959%
+train_accu_best = 30.769%
+test_accu_best = 45.000%
+[551] loss: 0.045 ,63.884%
+train_accu_best = 30.769%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 91 训练完成
++++++++++ size = 95
+[1] loss: 0.070 ,100.000%
+train_accu_best = 26.316%
+test_accu_best = 25.000%
+[31] loss: 0.064 ,91.158%
+train_accu_best = 28.421%
+test_accu_best = 35.000%
+[41] loss: 0.059 ,83.199%
+train_accu_best = 27.368%
+test_accu_best = 40.000%
+[91] loss: 0.056 ,79.575%
+train_accu_best = 25.263%
+test_accu_best = 45.000%
+[381] loss: 0.045 ,63.331%
+train_accu_best = 25.263%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 95 训练完成
++++++++++ size = 99
+[1] loss: 0.097 ,100.000%
+train_accu_best = 29.293%
+test_accu_best = 30.000%
+[31] loss: 0.078 ,80.275%
+train_accu_best = 25.253%
+test_accu_best = 35.000%
+[71] loss: 0.078 ,80.480%
+train_accu_best = 21.212%
+test_accu_best = 40.000%
+[411] loss: 0.056 ,57.469%
+train_accu_best = 27.273%
+test_accu_best = 45.000%
+[481] loss: 0.054 ,56.011%
+train_accu_best = 34.343%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 99 训练完成
++++++++++ size = 102
+[1] loss: 0.078 ,100.000%
+train_accu_best = 24.510%
+test_accu_best = 25.000%
+[31] loss: 0.086 ,111.009%
+train_accu_best = 26.471%
+test_accu_best = 35.000%
+[71] loss: 0.076 ,97.434%
+train_accu_best = 24.510%
+test_accu_best = 40.000%
+[91] loss: 0.072 ,92.788%
+train_accu_best = 27.451%
+test_accu_best = 45.000%
+[201] loss: 0.065 ,84.023%
+train_accu_best = 22.549%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 102 训练完成
++++++++++ size = 106
+[1] loss: 0.079 ,100.000%
+train_accu_best = 23.585%
+test_accu_best = 30.000%
+[11] loss: 0.071 ,90.844%
+train_accu_best = 21.698%
+test_accu_best = 35.000%
+[41] loss: 0.069 ,88.037%
+train_accu_best = 29.245%
+test_accu_best = 40.000%
+[291] loss: 0.054 ,68.652%
+train_accu_best = 28.302%
+test_accu_best = 45.000%
+[541] loss: 0.051 ,64.765%
+train_accu_best = 31.132%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 106 训练完成
++++++++++ size = 110
+[1] loss: 0.074 ,100.000%
+train_accu_best = 24.545%
+test_accu_best = 30.000%
+[21] loss: 0.069 ,93.359%
+train_accu_best = 28.182%
+test_accu_best = 35.000%
+[51] loss: 0.068 ,91.708%
+train_accu_best = 20.909%
+test_accu_best = 40.000%
+[161] loss: 0.057 ,77.099%
+train_accu_best = 21.818%
+test_accu_best = 45.000%
+[241] loss: 0.054 ,72.342%
+train_accu_best = 21.818%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 110 训练完成
++++++++++ size = 113
+[1] loss: 0.071 ,100.000%
+train_accu_best = 26.549%
+test_accu_best = 30.000%
+[31] loss: 0.070 ,98.429%
+train_accu_best = 23.009%
+test_accu_best = 40.000%
+[501] loss: 0.047 ,66.515%
+train_accu_best = 33.628%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 113 训练完成
++++++++++ size = 117
+[1] loss: 0.067 ,100.000%
+train_accu_best = 27.350%
+test_accu_best = 35.000%
+[41] loss: 0.060 ,88.899%
+train_accu_best = 27.350%
+test_accu_best = 40.000%
+[61] loss: 0.064 ,95.465%
+train_accu_best = 24.786%
+test_accu_best = 45.000%
+[341] loss: 0.048 ,71.034%
+train_accu_best = 29.060%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 117 训练完成
++++++++++ size = 121
+[1] loss: 0.068 ,100.000%
+train_accu_best = 23.140%
+test_accu_best = 25.000%
+[11] loss: 0.066 ,96.970%
+train_accu_best = 23.140%
+test_accu_best = 35.000%
+[71] loss: 0.060 ,87.703%
+train_accu_best = 25.620%
+test_accu_best = 40.000%
+[131] loss: 0.054 ,78.769%
+train_accu_best = 24.793%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 121 训练完成
++++++++++ size = 124
+[1] loss: 0.064 ,100.000%
+train_accu_best = 29.839%
+test_accu_best = 35.000%
+[41] loss: 0.060 ,94.282%
+train_accu_best = 25.000%
+test_accu_best = 45.000%
+[761] loss: 0.042 ,64.823%
+train_accu_best = 33.871%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 124 训练完成
++++++++++ size = 128
+[1] loss: 0.064 ,100.000%
+train_accu_best = 26.562%
+test_accu_best = 25.000%
+[21] loss: 0.059 ,91.811%
+train_accu_best = 25.781%
+test_accu_best = 30.000%
+[31] loss: 0.061 ,96.308%
+train_accu_best = 28.125%
+test_accu_best = 35.000%
+[81] loss: 0.055 ,86.869%
+train_accu_best = 28.125%
+test_accu_best = 40.000%
+[311] loss: 0.044 ,68.937%
+train_accu_best = 24.219%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 128 训练完成
++++++++++ size = 132
+[1] loss: 0.073 ,100.000%
+train_accu_best = 25.758%
+test_accu_best = 40.000%
+[171] loss: 0.058 ,79.478%
+train_accu_best = 25.000%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 132 训练完成
++++++++++ size = 135
+[1] loss: 0.069 ,100.000%
+train_accu_best = 28.889%
+test_accu_best = 30.000%
+[11] loss: 0.067 ,96.459%
+train_accu_best = 23.704%
+test_accu_best = 35.000%
+[51] loss: 0.062 ,89.563%
+train_accu_best = 25.926%
+test_accu_best = 40.000%
+[231] loss: 0.051 ,73.152%
+train_accu_best = 22.963%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 135 训练完成
++++++++++ size = 139
+[1] loss: 0.072 ,100.000%
+train_accu_best = 24.460%
+test_accu_best = 40.000%
+[471] loss: 0.047 ,66.253%
+train_accu_best = 35.971%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 139 训练完成
++++++++++ size = 143
+[1] loss: 0.069 ,100.000%
+train_accu_best = 27.273%
+test_accu_best = 25.000%
+[21] loss: 0.070 ,100.614%
+train_accu_best = 28.671%
+test_accu_best = 35.000%
+[161] loss: 0.053 ,77.014%
+train_accu_best = 25.175%
+test_accu_best = 40.000%
+[221] loss: 0.051 ,73.303%
+train_accu_best = 24.476%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 143 训练完成
++++++++++ size = 146
+[1] loss: 0.068 ,100.000%
+train_accu_best = 34.932%
+test_accu_best = 25.000%
+[11] loss: 0.065 ,96.715%
+train_accu_best = 28.767%
+test_accu_best = 30.000%
+[81] loss: 0.058 ,85.517%
+train_accu_best = 27.397%
+test_accu_best = 35.000%
+[341] loss: 0.046 ,68.571%
+train_accu_best = 32.192%
+test_accu_best = 40.000%
+[641] loss: 0.045 ,66.461%
+train_accu_best = 28.082%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 146 训练完成
++++++++++ size = 150
+[1] loss: 0.068 ,100.000%
+train_accu_best = 26.667%
+test_accu_best = 25.000%
+[11] loss: 0.063 ,93.237%
+train_accu_best = 29.333%
+test_accu_best = 35.000%
+[31] loss: 0.060 ,89.422%
+train_accu_best = 26.000%
+test_accu_best = 40.000%
+[231] loss: 0.046 ,68.791%
+train_accu_best = 28.000%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 150 训练完成
++++++++++ size = 154
+[1] loss: 0.062 ,100.000%
+train_accu_best = 29.221%
+test_accu_best = 35.000%
+[101] loss: 0.052 ,84.711%
+train_accu_best = 30.519%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 154 训练完成
++++++++++ size = 157
+[1] loss: 0.064 ,100.000%
+train_accu_best = 27.389%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 157 训练完成
++++++++++ size = 161
+[1] loss: 0.085 ,100.000%
+train_accu_best = 27.329%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 161 训练完成
++++++++++ size = 165
+[1] loss: 0.072 ,100.000%
+train_accu_best = 29.091%
+test_accu_best = 30.000%
+[11] loss: 0.074 ,102.648%
+train_accu_best = 24.848%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 165 训练完成
++++++++++ size = 168
+[1] loss: 0.076 ,100.000%
+train_accu_best = 24.405%
+test_accu_best = 30.000%
+[31] loss: 0.070 ,92.193%
+train_accu_best = 24.405%
+test_accu_best = 35.000%
+[101] loss: 0.054 ,71.637%
+train_accu_best = 26.786%
+test_accu_best = 40.000%
+[151] loss: 0.051 ,67.699%
+train_accu_best = 30.952%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 168 训练完成
++++++++++ size = 172
+[1] loss: 0.070 ,100.000%
+train_accu_best = 26.744%
+test_accu_best = 40.000%
+[111] loss: 0.054 ,78.202%
+train_accu_best = 25.581%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 172 训练完成
++++++++++ size = 176
+[1] loss: 0.068 ,100.000%
+train_accu_best = 25.000%
+test_accu_best = 30.000%
+[21] loss: 0.067 ,97.726%
+train_accu_best = 28.977%
+test_accu_best = 35.000%
+[191] loss: 0.047 ,69.182%
+train_accu_best = 30.682%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 176 训练完成
++++++++++ size = 180
+[1] loss: 0.071 ,100.000%
+train_accu_best = 25.556%
+test_accu_best = 35.000%
+[111] loss: 0.052 ,73.412%
+train_accu_best = 26.667%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：wxc 训练集容量 180 训练完成
+LSTM_cross_subject_4class_fine_Net47：wxc : 测试集准确率  0.400%
+------------------
+xsc 的训练情况：
++++++++++ size = 0
+test_accu_best = 20.000%
++++++++++ size = 3
+[1] loss: 0.459 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 30.000%
+[31] loss: 0.448 ,97.703%
+train_accu_best = 33.333%
+test_accu_best = 35.000%
+[71] loss: 0.436 ,95.076%
+train_accu_best = 33.333%
+test_accu_best = 40.000%
+[101] loss: 0.432 ,94.113%
+train_accu_best = 33.333%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 3 训练完成
++++++++++ size = 7
+[1] loss: 0.198 ,100.000%
+train_accu_best = 28.571%
+test_accu_best = 20.000%
+[21] loss: 0.196 ,99.229%
+train_accu_best = 42.857%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 7 训练完成
++++++++++ size = 11
+[1] loss: 0.126 ,100.000%
+train_accu_best = 36.364%
+test_accu_best = 30.000%
+[11] loss: 0.126 ,99.873%
+train_accu_best = 18.182%
+test_accu_best = 40.000%
+[61] loss: 0.125 ,99.449%
+train_accu_best = 36.364%
+test_accu_best = 45.000%
+[121] loss: 0.125 ,99.185%
+train_accu_best = 36.364%
+test_accu_best = 50.000%
+[311] loss: 0.124 ,98.546%
+train_accu_best = 36.364%
+test_accu_best = 55.000%
+[581] loss: 0.122 ,96.651%
+train_accu_best = 36.364%
+test_accu_best = 65.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 11 训练完成
++++++++++ size = 14
+[1] loss: 0.099 ,100.000%
+train_accu_best = 35.714%
+test_accu_best = 20.000%
+[21] loss: 0.099 ,99.858%
+train_accu_best = 21.429%
+test_accu_best = 25.000%
+[41] loss: 0.098 ,99.755%
+train_accu_best = 35.714%
+test_accu_best = 45.000%
+[161] loss: 0.097 ,98.398%
+train_accu_best = 28.571%
+test_accu_best = 50.000%
+[171] loss: 0.097 ,98.089%
+train_accu_best = 28.571%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 14 训练完成
++++++++++ size = 18
+[1] loss: 0.077 ,100.000%
+train_accu_best = 27.778%
+test_accu_best = 20.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 18 训练完成
++++++++++ size = 22
+[1] loss: 0.063 ,100.000%
+train_accu_best = 22.727%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 22 训练完成
++++++++++ size = 25
+[1] loss: 0.056 ,100.000%
+train_accu_best = 28.000%
+test_accu_best = 15.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 25 训练完成
++++++++++ size = 29
+[1] loss: 0.048 ,100.000%
+train_accu_best = 41.379%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 29 训练完成
++++++++++ size = 33
+[1] loss: 0.084 ,100.000%
+train_accu_best = 36.364%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 33 训练完成
++++++++++ size = 36
+[1] loss: 0.078 ,100.000%
+train_accu_best = 44.444%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 36 训练完成
++++++++++ size = 40
+[1] loss: 0.069 ,100.000%
+train_accu_best = 27.500%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 40 训练完成
++++++++++ size = 44
+[1] loss: 0.063 ,100.000%
+train_accu_best = 31.818%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 44 训练完成
++++++++++ size = 47
+[1] loss: 0.059 ,100.000%
+train_accu_best = 36.170%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 47 训练完成
++++++++++ size = 51
+[1] loss: 0.054 ,100.000%
+train_accu_best = 27.451%
+test_accu_best = 20.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 51 训练完成
++++++++++ size = 55
+[1] loss: 0.050 ,100.000%
+train_accu_best = 32.727%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 55 训练完成
++++++++++ size = 58
+[1] loss: 0.048 ,100.000%
+train_accu_best = 29.310%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 58 训练完成
++++++++++ size = 62
+[1] loss: 0.045 ,100.000%
+train_accu_best = 35.484%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 62 训练完成
++++++++++ size = 66
+[1] loss: 0.063 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 66 训练完成
++++++++++ size = 69
+[1] loss: 0.060 ,100.000%
+train_accu_best = 27.536%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 69 训练完成
++++++++++ size = 73
+[1] loss: 0.057 ,100.000%
+train_accu_best = 41.096%
+test_accu_best = 25.000%
+[11] loss: 0.057 ,99.872%
+train_accu_best = 27.397%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 73 训练完成
++++++++++ size = 77
+[1] loss: 0.054 ,100.000%
+train_accu_best = 33.766%
+test_accu_best = 20.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 77 训练完成
++++++++++ size = 80
+[1] loss: 0.052 ,100.000%
+train_accu_best = 26.250%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 80 训练完成
++++++++++ size = 84
+[1] loss: 0.049 ,100.000%
+train_accu_best = 34.524%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 84 训练完成
++++++++++ size = 88
+[1] loss: 0.047 ,100.000%
+train_accu_best = 30.682%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 88 训练完成
++++++++++ size = 91
+[1] loss: 0.046 ,100.000%
+train_accu_best = 32.967%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 91 训练完成
++++++++++ size = 95
+[1] loss: 0.044 ,100.000%
+train_accu_best = 32.632%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 95 训练完成
++++++++++ size = 99
+[1] loss: 0.056 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 99 训练完成
++++++++++ size = 102
+[1] loss: 0.054 ,100.000%
+train_accu_best = 34.314%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 102 训练完成
++++++++++ size = 106
+[1] loss: 0.052 ,100.000%
+train_accu_best = 35.849%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 106 训练完成
++++++++++ size = 110
+[1] loss: 0.050 ,100.000%
+train_accu_best = 31.818%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 110 训练完成
++++++++++ size = 113
+[1] loss: 0.049 ,100.000%
+train_accu_best = 31.858%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 113 训练完成
++++++++++ size = 117
+[1] loss: 0.047 ,100.000%
+train_accu_best = 31.624%
+test_accu_best = 30.000%
+[11] loss: 0.047 ,100.048%
+train_accu_best = 34.188%
+test_accu_best = 40.000%
+[31] loss: 0.047 ,99.990%
+train_accu_best = 32.479%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 117 训练完成
++++++++++ size = 121
+[1] loss: 0.046 ,100.000%
+train_accu_best = 33.884%
+test_accu_best = 15.000%
+[11] loss: 0.046 ,99.935%
+train_accu_best = 31.405%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 121 训练完成
++++++++++ size = 124
+[1] loss: 0.045 ,100.000%
+train_accu_best = 33.871%
+test_accu_best = 25.000%
+[21] loss: 0.045 ,99.950%
+train_accu_best = 31.452%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 124 训练完成
++++++++++ size = 128
+[1] loss: 0.043 ,100.000%
+train_accu_best = 32.812%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 128 训练完成
++++++++++ size = 132
+[1] loss: 0.053 ,100.000%
+train_accu_best = 34.091%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 132 训练完成
++++++++++ size = 135
+[1] loss: 0.051 ,100.000%
+train_accu_best = 32.593%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 135 训练完成
++++++++++ size = 139
+[1] loss: 0.050 ,100.000%
+train_accu_best = 32.374%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 139 训练完成
++++++++++ size = 143
+[1] loss: 0.048 ,100.000%
+train_accu_best = 30.769%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 143 训练完成
++++++++++ size = 146
+[1] loss: 0.048 ,100.000%
+train_accu_best = 28.767%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 146 训练完成
++++++++++ size = 150
+[1] loss: 0.046 ,100.000%
+train_accu_best = 32.000%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 150 训练完成
++++++++++ size = 154
+[1] loss: 0.045 ,100.000%
+train_accu_best = 35.714%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 154 训练完成
++++++++++ size = 157
+[1] loss: 0.044 ,100.000%
+train_accu_best = 28.662%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 157 训练完成
++++++++++ size = 161
+[1] loss: 0.052 ,100.000%
+train_accu_best = 32.919%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 161 训练完成
++++++++++ size = 165
+[1] loss: 0.050 ,100.000%
+train_accu_best = 28.485%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 165 训练完成
++++++++++ size = 168
+[1] loss: 0.050 ,100.000%
+train_accu_best = 31.548%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 168 训练完成
++++++++++ size = 172
+[1] loss: 0.048 ,100.000%
+train_accu_best = 27.907%
+test_accu_best = 20.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 172 训练完成
++++++++++ size = 176
+[1] loss: 0.047 ,100.000%
+train_accu_best = 32.386%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 176 训练完成
++++++++++ size = 180
+[1] loss: 0.046 ,100.000%
+train_accu_best = 30.556%
+test_accu_best = 15.000%
+[61] loss: 0.046 ,99.721%
+train_accu_best = 26.667%
+test_accu_best = 20.000%
+LSTM_cross_subject_4class_fine_Net47：xsc 训练集容量 180 训练完成
+LSTM_cross_subject_4class_fine_Net47：xsc : 测试集准确率  0.200%
+------------------
+yzg 的训练情况：
++++++++++ size = 0
+test_accu_best = 25.000%
++++++++++ size = 3
+[1] loss: 0.384 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 10.000%
+[11] loss: 0.379 ,98.577%
+train_accu_best = 33.333%
+test_accu_best = 20.000%
+[31] loss: 0.374 ,97.334%
+train_accu_best = 66.667%
+test_accu_best = 25.000%
+[131] loss: 0.377 ,98.044%
+train_accu_best = 66.667%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 3 训练完成
++++++++++ size = 7
+[1] loss: 0.182 ,100.000%
+train_accu_best = 42.857%
+test_accu_best = 15.000%
+[11] loss: 0.182 ,99.761%
+train_accu_best = 57.143%
+test_accu_best = 20.000%
+[31] loss: 0.180 ,98.524%
+train_accu_best = 28.571%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 7 训练完成
++++++++++ size = 11
+[1] loss: 0.120 ,100.000%
+train_accu_best = 54.545%
+test_accu_best = 25.000%
+[11] loss: 0.124 ,102.869%
+train_accu_best = 18.182%
+test_accu_best = 30.000%
+[41] loss: 0.121 ,100.369%
+train_accu_best = 45.455%
+test_accu_best = 35.000%
+[131] loss: 0.119 ,99.219%
+train_accu_best = 45.455%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 11 训练完成
++++++++++ size = 14
+[1] loss: 0.096 ,100.000%
+train_accu_best = 42.857%
+test_accu_best = 20.000%
+[741] loss: 0.083 ,86.633%
+train_accu_best = 42.857%
+test_accu_best = 25.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 14 训练完成
++++++++++ size = 18
+[1] loss: 0.078 ,100.000%
+train_accu_best = 27.778%
+test_accu_best = 5.000%
+[11] loss: 0.074 ,94.910%
+train_accu_best = 55.556%
+test_accu_best = 10.000%
+[21] loss: 0.077 ,97.582%
+train_accu_best = 50.000%
+test_accu_best = 20.000%
+[31] loss: 0.077 ,97.558%
+train_accu_best = 50.000%
+test_accu_best = 30.000%
+[71] loss: 0.076 ,96.362%
+train_accu_best = 61.111%
+test_accu_best = 35.000%
+[101] loss: 0.075 ,95.889%
+train_accu_best = 50.000%
+test_accu_best = 40.000%
+[451] loss: 0.072 ,91.815%
+train_accu_best = 61.111%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 18 训练完成
++++++++++ size = 22
+[1] loss: 0.066 ,100.000%
+train_accu_best = 36.364%
+test_accu_best = 15.000%
+[11] loss: 0.064 ,96.837%
+train_accu_best = 18.182%
+test_accu_best = 25.000%
+[21] loss: 0.065 ,97.219%
+train_accu_best = 27.273%
+test_accu_best = 30.000%
+[51] loss: 0.066 ,99.021%
+train_accu_best = 36.364%
+test_accu_best = 35.000%
+[91] loss: 0.064 ,96.092%
+train_accu_best = 31.818%
+test_accu_best = 40.000%
+[141] loss: 0.062 ,92.513%
+train_accu_best = 31.818%
+test_accu_best = 45.000%
+[191] loss: 0.060 ,90.914%
+train_accu_best = 36.364%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 22 训练完成
++++++++++ size = 25
+[1] loss: 0.059 ,100.000%
+train_accu_best = 16.000%
+test_accu_best = 15.000%
+[11] loss: 0.058 ,99.073%
+train_accu_best = 40.000%
+test_accu_best = 30.000%
+[31] loss: 0.056 ,96.299%
+train_accu_best = 32.000%
+test_accu_best = 40.000%
+[141] loss: 0.057 ,96.851%
+train_accu_best = 40.000%
+test_accu_best = 45.000%
+[171] loss: 0.056 ,94.781%
+train_accu_best = 32.000%
+test_accu_best = 50.000%
+[291] loss: 0.054 ,92.202%
+train_accu_best = 44.000%
+test_accu_best = 55.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 25 训练完成
++++++++++ size = 29
+[1] loss: 0.049 ,100.000%
+train_accu_best = 34.483%
+test_accu_best = 20.000%
+[41] loss: 0.048 ,97.677%
+train_accu_best = 34.483%
+test_accu_best = 25.000%
+[51] loss: 0.048 ,97.443%
+train_accu_best = 34.483%
+test_accu_best = 30.000%
+[81] loss: 0.048 ,97.809%
+train_accu_best = 48.276%
+test_accu_best = 40.000%
+[171] loss: 0.048 ,98.477%
+train_accu_best = 44.828%
+test_accu_best = 45.000%
+[311] loss: 0.047 ,96.036%
+train_accu_best = 37.931%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 29 训练完成
++++++++++ size = 33
+[1] loss: 0.101 ,100.000%
+train_accu_best = 21.212%
+test_accu_best = 15.000%
+[11] loss: 0.072 ,71.479%
+train_accu_best = 39.394%
+test_accu_best = 20.000%
+[31] loss: 0.076 ,75.103%
+train_accu_best = 30.303%
+test_accu_best = 30.000%
+[51] loss: 0.091 ,90.060%
+train_accu_best = 30.303%
+test_accu_best = 40.000%
+[381] loss: 0.083 ,81.543%
+train_accu_best = 36.364%
+test_accu_best = 45.000%
+[401] loss: 0.099 ,97.818%
+train_accu_best = 51.515%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 33 训练完成
++++++++++ size = 36
+[1] loss: 0.085 ,100.000%
+train_accu_best = 13.889%
+test_accu_best = 20.000%
+[21] loss: 0.077 ,90.632%
+train_accu_best = 25.000%
+test_accu_best = 25.000%
+[31] loss: 0.078 ,91.203%
+train_accu_best = 19.444%
+test_accu_best = 35.000%
+[91] loss: 0.080 ,94.180%
+train_accu_best = 27.778%
+test_accu_best = 40.000%
+[391] loss: 0.075 ,88.219%
+train_accu_best = 41.667%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 36 训练完成
++++++++++ size = 40
+[1] loss: 0.071 ,100.000%
+train_accu_best = 25.000%
+test_accu_best = 25.000%
+[21] loss: 0.077 ,108.081%
+train_accu_best = 30.000%
+test_accu_best = 30.000%
+[81] loss: 0.074 ,103.818%
+train_accu_best = 32.500%
+test_accu_best = 35.000%
+[161] loss: 0.072 ,100.746%
+train_accu_best = 30.000%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 40 训练完成
++++++++++ size = 44
+[1] loss: 0.062 ,100.000%
+train_accu_best = 27.273%
+test_accu_best = 15.000%
+[11] loss: 0.065 ,105.668%
+train_accu_best = 29.545%
+test_accu_best = 35.000%
+[91] loss: 0.064 ,103.566%
+train_accu_best = 40.909%
+test_accu_best = 40.000%
+[221] loss: 0.063 ,102.598%
+train_accu_best = 40.909%
+test_accu_best = 45.000%
+[351] loss: 0.062 ,100.102%
+train_accu_best = 45.455%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 44 训练完成
++++++++++ size = 47
+[1] loss: 0.062 ,100.000%
+train_accu_best = 34.043%
+test_accu_best = 15.000%
+[11] loss: 0.060 ,96.782%
+train_accu_best = 29.787%
+test_accu_best = 30.000%
+[51] loss: 0.061 ,97.615%
+train_accu_best = 31.915%
+test_accu_best = 35.000%
+[91] loss: 0.059 ,95.396%
+train_accu_best = 31.915%
+test_accu_best = 40.000%
+[181] loss: 0.059 ,94.199%
+train_accu_best = 36.170%
+test_accu_best = 45.000%
+[641] loss: 0.056 ,89.247%
+train_accu_best = 44.681%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 47 训练完成
++++++++++ size = 51
+[1] loss: 0.054 ,100.000%
+train_accu_best = 27.451%
+test_accu_best = 15.000%
+[11] loss: 0.057 ,105.164%
+train_accu_best = 19.608%
+test_accu_best = 25.000%
+[31] loss: 0.055 ,101.090%
+train_accu_best = 39.216%
+test_accu_best = 30.000%
+[101] loss: 0.056 ,103.119%
+train_accu_best = 31.373%
+test_accu_best = 35.000%
+[151] loss: 0.055 ,100.542%
+train_accu_best = 41.176%
+test_accu_best = 40.000%
+[581] loss: 0.051 ,94.485%
+train_accu_best = 41.176%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 51 训练完成
++++++++++ size = 55
+[1] loss: 0.051 ,100.000%
+train_accu_best = 30.909%
+test_accu_best = 20.000%
+[31] loss: 0.050 ,99.784%
+train_accu_best = 32.727%
+test_accu_best = 30.000%
+[51] loss: 0.050 ,99.619%
+train_accu_best = 34.545%
+test_accu_best = 35.000%
+[361] loss: 0.048 ,95.682%
+train_accu_best = 38.182%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 55 训练完成
++++++++++ size = 58
+[1] loss: 0.048 ,100.000%
+train_accu_best = 25.862%
+test_accu_best = 20.000%
+[31] loss: 0.048 ,100.433%
+train_accu_best = 31.034%
+test_accu_best = 30.000%
+[81] loss: 0.046 ,97.096%
+train_accu_best = 34.483%
+test_accu_best = 35.000%
+[201] loss: 0.046 ,97.617%
+train_accu_best = 37.931%
+test_accu_best = 45.000%
+[331] loss: 0.046 ,95.633%
+train_accu_best = 37.931%
+test_accu_best = 50.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 58 训练完成
++++++++++ size = 62
+[1] loss: 0.045 ,100.000%
+train_accu_best = 32.258%
+test_accu_best = 15.000%
+[11] loss: 0.045 ,98.696%
+train_accu_best = 30.645%
+test_accu_best = 20.000%
+[41] loss: 0.045 ,98.785%
+train_accu_best = 37.097%
+test_accu_best = 25.000%
+[101] loss: 0.045 ,98.523%
+train_accu_best = 40.323%
+test_accu_best = 30.000%
+[231] loss: 0.042 ,93.511%
+train_accu_best = 41.935%
+test_accu_best = 35.000%
+[471] loss: 0.042 ,91.955%
+train_accu_best = 40.323%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 62 训练完成
++++++++++ size = 66
+[1] loss: 0.063 ,100.000%
+train_accu_best = 30.303%
+test_accu_best = 30.000%
+[401] loss: 0.062 ,97.981%
+train_accu_best = 36.364%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 66 训练完成
++++++++++ size = 69
+[1] loss: 0.061 ,100.000%
+train_accu_best = 40.580%
+test_accu_best = 15.000%
+[11] loss: 0.061 ,100.332%
+train_accu_best = 36.232%
+test_accu_best = 20.000%
+[21] loss: 0.066 ,108.639%
+train_accu_best = 39.130%
+test_accu_best = 25.000%
+[361] loss: 0.056 ,91.720%
+train_accu_best = 43.478%
+test_accu_best = 30.000%
+[421] loss: 0.057 ,94.521%
+train_accu_best = 50.725%
+test_accu_best = 35.000%
+[591] loss: 0.056 ,92.972%
+train_accu_best = 40.580%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 69 训练完成
++++++++++ size = 73
+[1] loss: 0.060 ,100.000%
+train_accu_best = 27.397%
+test_accu_best = 25.000%
+[31] loss: 0.058 ,95.827%
+train_accu_best = 32.877%
+test_accu_best = 30.000%
+[261] loss: 0.054 ,89.636%
+train_accu_best = 36.986%
+test_accu_best = 35.000%
+[531] loss: 0.053 ,88.562%
+train_accu_best = 43.836%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 73 训练完成
++++++++++ size = 77
+[1] loss: 0.052 ,100.000%
+train_accu_best = 29.870%
+test_accu_best = 20.000%
+[81] loss: 0.052 ,101.417%
+train_accu_best = 33.766%
+test_accu_best = 25.000%
+[111] loss: 0.053 ,103.784%
+train_accu_best = 36.364%
+test_accu_best = 30.000%
+[471] loss: 0.051 ,98.759%
+train_accu_best = 44.156%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 77 训练完成
++++++++++ size = 80
+[1] loss: 0.054 ,100.000%
+train_accu_best = 33.750%
+test_accu_best = 20.000%
+[31] loss: 0.053 ,98.493%
+train_accu_best = 28.750%
+test_accu_best = 25.000%
+[71] loss: 0.050 ,92.136%
+train_accu_best = 38.750%
+test_accu_best = 30.000%
+[531] loss: 0.049 ,90.794%
+train_accu_best = 37.500%
+test_accu_best = 35.000%
+[631] loss: 0.050 ,92.047%
+train_accu_best = 41.250%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 80 训练完成
++++++++++ size = 84
+[1] loss: 0.051 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 25.000%
+[351] loss: 0.049 ,95.872%
+train_accu_best = 33.333%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 84 训练完成
++++++++++ size = 88
+[1] loss: 0.048 ,100.000%
+train_accu_best = 32.955%
+test_accu_best = 25.000%
+[281] loss: 0.046 ,94.561%
+train_accu_best = 37.500%
+test_accu_best = 30.000%
+[321] loss: 0.046 ,94.905%
+train_accu_best = 45.455%
+test_accu_best = 35.000%
+[681] loss: 0.044 ,91.716%
+train_accu_best = 39.773%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 88 训练完成
++++++++++ size = 91
+[1] loss: 0.046 ,100.000%
+train_accu_best = 41.758%
+test_accu_best = 15.000%
+[31] loss: 0.045 ,96.782%
+train_accu_best = 27.473%
+test_accu_best = 20.000%
+[321] loss: 0.044 ,95.493%
+train_accu_best = 40.659%
+test_accu_best = 25.000%
+[361] loss: 0.044 ,94.138%
+train_accu_best = 35.165%
+test_accu_best = 30.000%
+[651] loss: 0.043 ,93.063%
+train_accu_best = 43.956%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 91 训练完成
++++++++++ size = 95
+[1] loss: 0.045 ,100.000%
+train_accu_best = 43.158%
+test_accu_best = 20.000%
+[11] loss: 0.043 ,97.365%
+train_accu_best = 38.947%
+test_accu_best = 30.000%
+[471] loss: 0.041 ,92.744%
+train_accu_best = 41.053%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 95 训练完成
++++++++++ size = 99
+[1] loss: 0.060 ,100.000%
+train_accu_best = 39.394%
+test_accu_best = 25.000%
+[171] loss: 0.053 ,87.628%
+train_accu_best = 39.394%
+test_accu_best = 35.000%
+[411] loss: 0.053 ,87.234%
+train_accu_best = 38.384%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 99 训练完成
++++++++++ size = 102
+[1] loss: 0.057 ,100.000%
+train_accu_best = 38.235%
+test_accu_best = 15.000%
+[11] loss: 0.054 ,94.565%
+train_accu_best = 36.275%
+test_accu_best = 25.000%
+[121] loss: 0.051 ,88.822%
+train_accu_best = 35.294%
+test_accu_best = 30.000%
+[221] loss: 0.054 ,95.124%
+train_accu_best = 33.333%
+test_accu_best = 35.000%
+[551] loss: 0.051 ,89.531%
+train_accu_best = 39.216%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 102 训练完成
++++++++++ size = 106
+[1] loss: 0.053 ,100.000%
+train_accu_best = 33.019%
+test_accu_best = 15.000%
+[11] loss: 0.053 ,99.702%
+train_accu_best = 32.075%
+test_accu_best = 20.000%
+[31] loss: 0.054 ,102.020%
+train_accu_best = 34.906%
+test_accu_best = 25.000%
+[151] loss: 0.051 ,97.216%
+train_accu_best = 35.849%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 106 训练完成
++++++++++ size = 110
+[1] loss: 0.052 ,100.000%
+train_accu_best = 33.636%
+test_accu_best = 20.000%
+[31] loss: 0.052 ,98.739%
+train_accu_best = 32.727%
+test_accu_best = 30.000%
+[321] loss: 0.049 ,93.476%
+train_accu_best = 40.000%
+test_accu_best = 35.000%
+[431] loss: 0.049 ,93.386%
+train_accu_best = 40.909%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 110 训练完成
++++++++++ size = 113
+[1] loss: 0.050 ,100.000%
+train_accu_best = 33.628%
+test_accu_best = 15.000%
+[11] loss: 0.050 ,100.766%
+train_accu_best = 33.628%
+test_accu_best = 20.000%
+[141] loss: 0.049 ,98.417%
+train_accu_best = 36.283%
+test_accu_best = 25.000%
+[161] loss: 0.048 ,96.917%
+train_accu_best = 38.053%
+test_accu_best = 35.000%
+[211] loss: 0.048 ,96.340%
+train_accu_best = 36.283%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 113 训练完成
++++++++++ size = 117
+[1] loss: 0.048 ,100.000%
+train_accu_best = 37.607%
+test_accu_best = 20.000%
+[51] loss: 0.046 ,96.656%
+train_accu_best = 37.607%
+test_accu_best = 25.000%
+[91] loss: 0.048 ,99.218%
+train_accu_best = 37.607%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 117 训练完成
++++++++++ size = 121
+[1] loss: 0.046 ,100.000%
+train_accu_best = 30.579%
+test_accu_best = 20.000%
+[371] loss: 0.044 ,96.315%
+train_accu_best = 34.711%
+test_accu_best = 25.000%
+[511] loss: 0.043 ,94.094%
+train_accu_best = 40.496%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 121 训练完成
++++++++++ size = 124
+[1] loss: 0.046 ,100.000%
+train_accu_best = 38.710%
+test_accu_best = 15.000%
+[11] loss: 0.045 ,96.548%
+train_accu_best = 36.290%
+test_accu_best = 20.000%
+[41] loss: 0.045 ,98.178%
+train_accu_best = 36.290%
+test_accu_best = 25.000%
+[91] loss: 0.044 ,94.963%
+train_accu_best = 37.097%
+test_accu_best = 30.000%
+[781] loss: 0.042 ,91.249%
+train_accu_best = 38.710%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 124 训练完成
++++++++++ size = 128
+[1] loss: 0.045 ,100.000%
+train_accu_best = 34.375%
+test_accu_best = 20.000%
+[151] loss: 0.042 ,93.559%
+train_accu_best = 34.375%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 128 训练完成
++++++++++ size = 132
+[1] loss: 0.053 ,100.000%
+train_accu_best = 32.576%
+test_accu_best = 15.000%
+[11] loss: 0.055 ,103.426%
+train_accu_best = 30.303%
+test_accu_best = 25.000%
+[211] loss: 0.050 ,94.607%
+train_accu_best = 34.848%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 132 训练完成
++++++++++ size = 135
+[1] loss: 0.052 ,100.000%
+train_accu_best = 33.333%
+test_accu_best = 25.000%
+[91] loss: 0.052 ,99.801%
+train_accu_best = 34.074%
+test_accu_best = 30.000%
+[111] loss: 0.050 ,96.262%
+train_accu_best = 34.074%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 135 训练完成
++++++++++ size = 139
+[1] loss: 0.050 ,100.000%
+train_accu_best = 34.532%
+test_accu_best = 20.000%
+[11] loss: 0.050 ,100.430%
+train_accu_best = 31.655%
+test_accu_best = 25.000%
+[161] loss: 0.049 ,98.175%
+train_accu_best = 35.971%
+test_accu_best = 30.000%
+[241] loss: 0.048 ,96.682%
+train_accu_best = 32.374%
+test_accu_best = 35.000%
+[291] loss: 0.048 ,95.949%
+train_accu_best = 38.129%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 139 训练完成
++++++++++ size = 143
+[1] loss: 0.050 ,100.000%
+train_accu_best = 30.769%
+test_accu_best = 25.000%
+[11] loss: 0.049 ,99.349%
+train_accu_best = 34.965%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 143 训练完成
++++++++++ size = 146
+[1] loss: 0.048 ,100.000%
+train_accu_best = 32.877%
+test_accu_best = 20.000%
+[11] loss: 0.048 ,100.506%
+train_accu_best = 32.192%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 146 训练完成
++++++++++ size = 150
+[1] loss: 0.047 ,100.000%
+train_accu_best = 30.667%
+test_accu_best = 25.000%
+[111] loss: 0.046 ,96.133%
+train_accu_best = 34.000%
+test_accu_best = 30.000%
+[141] loss: 0.045 ,94.718%
+train_accu_best = 31.333%
+test_accu_best = 35.000%
+[351] loss: 0.044 ,93.343%
+train_accu_best = 39.333%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 150 训练完成
++++++++++ size = 154
+[1] loss: 0.046 ,100.000%
+train_accu_best = 34.416%
+test_accu_best = 20.000%
+[101] loss: 0.044 ,96.421%
+train_accu_best = 36.364%
+test_accu_best = 25.000%
+[211] loss: 0.043 ,94.441%
+train_accu_best = 37.013%
+test_accu_best = 30.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 154 训练完成
++++++++++ size = 157
+[1] loss: 0.045 ,100.000%
+train_accu_best = 31.210%
+test_accu_best = 25.000%
+[61] loss: 0.044 ,97.123%
+train_accu_best = 35.032%
+test_accu_best = 30.000%
+[361] loss: 0.043 ,94.100%
+train_accu_best = 33.121%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 157 训练完成
++++++++++ size = 161
+[1] loss: 0.054 ,100.000%
+train_accu_best = 32.919%
+test_accu_best = 15.000%
+[21] loss: 0.057 ,105.365%
+train_accu_best = 32.919%
+test_accu_best = 20.000%
+[31] loss: 0.055 ,101.021%
+train_accu_best = 37.267%
+test_accu_best = 25.000%
+[61] loss: 0.049 ,90.858%
+train_accu_best = 34.161%
+test_accu_best = 30.000%
+[711] loss: 0.049 ,90.833%
+train_accu_best = 38.509%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 161 训练完成
++++++++++ size = 165
+[1] loss: 0.053 ,100.000%
+train_accu_best = 32.727%
+test_accu_best = 15.000%
+[11] loss: 0.052 ,98.440%
+train_accu_best = 32.121%
+test_accu_best = 20.000%
+[51] loss: 0.051 ,97.314%
+train_accu_best = 30.909%
+test_accu_best = 25.000%
+[121] loss: 0.049 ,92.650%
+train_accu_best = 33.939%
+test_accu_best = 30.000%
+[301] loss: 0.048 ,91.381%
+train_accu_best = 34.545%
+test_accu_best = 40.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 165 训练完成
++++++++++ size = 168
+[1] loss: 0.050 ,100.000%
+train_accu_best = 32.738%
+test_accu_best = 20.000%
+[41] loss: 0.049 ,96.415%
+train_accu_best = 29.762%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 168 训练完成
++++++++++ size = 172
+[1] loss: 0.050 ,100.000%
+train_accu_best = 33.721%
+test_accu_best = 25.000%
+[31] loss: 0.047 ,95.466%
+train_accu_best = 34.884%
+test_accu_best = 35.000%
+[381] loss: 0.046 ,93.075%
+train_accu_best = 38.372%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 172 训练完成
++++++++++ size = 176
+[1] loss: 0.048 ,100.000%
+train_accu_best = 34.091%
+test_accu_best = 25.000%
+[41] loss: 0.047 ,97.578%
+train_accu_best = 31.818%
+test_accu_best = 30.000%
+[201] loss: 0.046 ,97.041%
+train_accu_best = 34.091%
+test_accu_best = 35.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 176 训练完成
++++++++++ size = 180
+[1] loss: 0.047 ,100.000%
+train_accu_best = 29.444%
+test_accu_best = 30.000%
+[221] loss: 0.045 ,94.590%
+train_accu_best = 28.333%
+test_accu_best = 45.000%
+LSTM_cross_subject_4class_fine_Net47：yzg 训练集容量 180 训练完成
+LSTM_cross_subject_4class_fine_Net47：yzg : 测试集准确率  0.450%

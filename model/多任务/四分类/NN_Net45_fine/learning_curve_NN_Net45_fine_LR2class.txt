@@ -1,0 +1,268 @@
+NN 四分类器_微调（左、右）跨被试
+------------------
+cw 的训练情况：
++++++++++ size = 0
+test_accu_best = 15.000%
++++++++++ size = 90
+[11] loss: 0.057 ,85.343%
+train_accu_best = 27.778%
+test_accu_best = 35.000%
+[251] loss: 0.046 ,68.127%
+train_accu_best = 31.111%
+test_accu_best = 40.000%
+[1631] loss: 0.044 ,66.412%
+train_accu_best = 38.889%
+test_accu_best = 45.000%
+[2281] loss: 0.043 ,63.501%
+train_accu_best = 43.333%
+test_accu_best = 50.000%
+[7291] loss: 0.043 ,64.838%
+train_accu_best = 48.889%
+test_accu_best = 55.000%
+NN_cross_subject_4class_fine_Net45_multiTask：cw 训练集容量 90 训练完成
++++++++++ size = 180
+[21] loss: 0.049 ,80.399%
+train_accu_best = 30.000%
+test_accu_best = 35.000%
+[231] loss: 0.046 ,74.363%
+train_accu_best = 36.667%
+test_accu_best = 40.000%
+[1251] loss: 0.044 ,71.310%
+train_accu_best = 33.333%
+test_accu_best = 45.000%
+[2291] loss: 0.044 ,71.286%
+train_accu_best = 38.889%
+test_accu_best = 50.000%
+[4821] loss: 0.045 ,72.917%
+train_accu_best = 37.778%
+test_accu_best = 55.000%
+NN_cross_subject_4class_fine_Net45_multiTask：cw 训练集容量 180 训练完成
+NN_cross_subject_4class_fine_Net45_multiTask：cw : 测试集准确率  0.550%
+------------------
+cwm 的训练情况：
++++++++++ size = 0
+test_accu_best = 40.000%
++++++++++ size = 90
+[11] loss: 0.168 ,64.100%
+train_accu_best = 25.556%
+test_accu_best = 30.000%
+[31] loss: 0.132 ,50.398%
+train_accu_best = 30.000%
+test_accu_best = 35.000%
+[41] loss: 0.115 ,43.852%
+train_accu_best = 24.444%
+test_accu_best = 50.000%
+[91] loss: 0.087 ,33.288%
+train_accu_best = 22.222%
+test_accu_best = 55.000%
+NN_cross_subject_4class_fine_Net45_multiTask：cwm 训练集容量 90 训练完成
++++++++++ size = 180
+[11] loss: 0.182 ,70.030%
+train_accu_best = 29.444%
+test_accu_best = 35.000%
+[31] loss: 0.111 ,42.847%
+train_accu_best = 21.667%
+test_accu_best = 40.000%
+[61] loss: 0.075 ,28.692%
+train_accu_best = 25.556%
+test_accu_best = 45.000%
+NN_cross_subject_4class_fine_Net45_multiTask：cwm 训练集容量 180 训练完成
+NN_cross_subject_4class_fine_Net45_multiTask：cwm : 测试集准确率  0.450%
+------------------
+kx 的训练情况：
++++++++++ size = 0
+test_accu_best = 25.000%
++++++++++ size = 90
+[5761] loss: 0.042 ,89.943%
+train_accu_best = 30.000%
+test_accu_best = 35.000%
+[11661] loss: 0.042 ,89.837%
+train_accu_best = 35.556%
+test_accu_best = 40.000%
+[18291] loss: 0.042 ,89.588%
+train_accu_best = 35.556%
+test_accu_best = 55.000%
+NN_cross_subject_4class_fine_Net45_multiTask：kx 训练集容量 90 训练完成
++++++++++ size = 180
+NN_cross_subject_4class_fine_Net45_multiTask：kx 训练集容量 180 训练完成
+NN_cross_subject_4class_fine_Net45_multiTask：kx : 测试集准确率  0.000%
+------------------
+pbl 的训练情况：
++++++++++ size = 0
+test_accu_best = 30.000%
++++++++++ size = 90
+[11] loss: 0.053 ,80.552%
+train_accu_best = 26.667%
+test_accu_best = 20.000%
+[21] loss: 0.051 ,77.092%
+train_accu_best = 32.222%
+test_accu_best = 30.000%
+[1081] loss: 0.045 ,68.056%
+train_accu_best = 34.444%
+test_accu_best = 40.000%
+NN_cross_subject_4class_fine_Net45_multiTask：pbl 训练集容量 90 训练完成
++++++++++ size = 180
+[11] loss: 0.057 ,75.614%
+train_accu_best = 22.778%
+test_accu_best = 20.000%
+[41] loss: 0.048 ,63.681%
+train_accu_best = 26.111%
+test_accu_best = 25.000%
+[101] loss: 0.046 ,61.497%
+train_accu_best = 34.444%
+test_accu_best = 30.000%
+[181] loss: 0.046 ,62.129%
+train_accu_best = 33.333%
+test_accu_best = 35.000%
+[401] loss: 0.046 ,61.293%
+train_accu_best = 28.333%
+test_accu_best = 40.000%
+[691] loss: 0.045 ,60.597%
+train_accu_best = 34.444%
+test_accu_best = 50.000%
+[1641] loss: 0.045 ,60.651%
+train_accu_best = 37.778%
+test_accu_best = 55.000%
+[4831] loss: 0.044 ,59.135%
+train_accu_best = 34.444%
+test_accu_best = 60.000%
+NN_cross_subject_4class_fine_Net45_multiTask：pbl 训练集容量 180 训练完成
+NN_cross_subject_4class_fine_Net45_multiTask：pbl : 测试集准确率  0.600%
+------------------
+wrd 的训练情况：
++++++++++ size = 0
+test_accu_best = 45.000%
++++++++++ size = 90
+[11] loss: 0.115 ,79.606%
+train_accu_best = 28.889%
+test_accu_best = 40.000%
+[21] loss: 0.089 ,61.369%
+train_accu_best = 21.111%
+test_accu_best = 45.000%
+NN_cross_subject_4class_fine_Net45_multiTask：wrd 训练集容量 90 训练完成
++++++++++ size = 180
+[11] loss: 0.084 ,56.590%
+train_accu_best = 25.556%
+test_accu_best = 30.000%
+[51] loss: 0.047 ,31.733%
+train_accu_best = 25.000%
+test_accu_best = 35.000%
+[151] loss: 0.045 ,30.317%
+train_accu_best = 33.333%
+test_accu_best = 40.000%
+[1311] loss: 0.045 ,30.326%
+train_accu_best = 34.444%
+test_accu_best = 45.000%
+NN_cross_subject_4class_fine_Net45_multiTask：wrd 训练集容量 180 训练完成
+NN_cross_subject_4class_fine_Net45_multiTask：wrd : 测试集准确率  0.450%
+------------------
+wxc 的训练情况：
++++++++++ size = 0
+test_accu_best = 40.000%
++++++++++ size = 90
+[201] loss: 0.040 ,89.896%
+train_accu_best = 37.778%
+test_accu_best = 30.000%
+[391] loss: 0.038 ,87.576%
+train_accu_best = 36.667%
+test_accu_best = 50.000%
+[1341] loss: 0.039 ,88.823%
+train_accu_best = 48.889%
+test_accu_best = 55.000%
+[6231] loss: 0.039 ,89.376%
+train_accu_best = 40.000%
+test_accu_best = 60.000%
+NN_cross_subject_4class_fine_Net45_multiTask：wxc 训练集容量 90 训练完成
++++++++++ size = 180
+[391] loss: 0.040 ,89.571%
+train_accu_best = 41.667%
+test_accu_best = 35.000%
+[701] loss: 0.040 ,89.903%
+train_accu_best = 40.556%
+test_accu_best = 40.000%
+[731] loss: 0.039 ,88.600%
+train_accu_best = 38.889%
+test_accu_best = 50.000%
+[1691] loss: 0.039 ,87.113%
+train_accu_best = 38.889%
+test_accu_best = 55.000%
+[13851] loss: 0.040 ,89.525%
+train_accu_best = 40.556%
+test_accu_best = 60.000%
+[16101] loss: 0.040 ,89.946%
+train_accu_best = 36.667%
+test_accu_best = 65.000%
+NN_cross_subject_4class_fine_Net45_multiTask：wxc 训练集容量 180 训练完成
+NN_cross_subject_4class_fine_Net45_multiTask：wxc : 测试集准确率  0.650%
+------------------
+xsc 的训练情况：
++++++++++ size = 0
+test_accu_best = 35.000%
++++++++++ size = 90
+[411] loss: 0.041 ,88.978%
+train_accu_best = 37.778%
+test_accu_best = 55.000%
+[2461] loss: 0.040 ,85.332%
+train_accu_best = 37.778%
+test_accu_best = 70.000%
+NN_cross_subject_4class_fine_Net45_multiTask：xsc 训练集容量 90 训练完成
++++++++++ size = 180
+[421] loss: 0.042 ,89.823%
+train_accu_best = 38.889%
+test_accu_best = 40.000%
+[541] loss: 0.041 ,88.582%
+train_accu_best = 32.778%
+test_accu_best = 55.000%
+[4831] loss: 0.040 ,86.835%
+train_accu_best = 43.333%
+test_accu_best = 60.000%
+NN_cross_subject_4class_fine_Net45_multiTask：xsc 训练集容量 180 训练完成
+NN_cross_subject_4class_fine_Net45_multiTask：xsc : 测试集准确率  0.600%
+------------------
+yzg 的训练情况：
++++++++++ size = 0
+test_accu_best = 35.000%
++++++++++ size = 90
+[181] loss: 0.043 ,89.740%
+train_accu_best = 37.778%
+test_accu_best = 20.000%
+[231] loss: 0.042 ,88.321%
+train_accu_best = 34.444%
+test_accu_best = 45.000%
+[271] loss: 0.043 ,89.597%
+train_accu_best = 34.444%
+test_accu_best = 50.000%
+[1991] loss: 0.042 ,88.118%
+train_accu_best = 38.889%
+test_accu_best = 55.000%
+[13201] loss: 0.041 ,86.484%
+train_accu_best = 31.111%
+test_accu_best = 60.000%
+[18641] loss: 0.042 ,87.611%
+train_accu_best = 33.333%
+test_accu_best = 70.000%
+NN_cross_subject_4class_fine_Net45_multiTask：yzg 训练集容量 90 训练完成
++++++++++ size = 180
+[131] loss: 0.044 ,89.402%
+train_accu_best = 37.778%
+test_accu_best = 20.000%
+[161] loss: 0.044 ,89.491%
+train_accu_best = 35.556%
+test_accu_best = 25.000%
+[221] loss: 0.044 ,89.529%
+train_accu_best = 33.889%
+test_accu_best = 40.000%
+[431] loss: 0.044 ,89.797%
+train_accu_best = 36.111%
+test_accu_best = 50.000%
+[1341] loss: 0.042 ,85.572%
+train_accu_best = 35.000%
+test_accu_best = 55.000%
+[7851] loss: 0.044 ,88.770%
+train_accu_best = 34.444%
+test_accu_best = 60.000%
+[10711] loss: 0.041 ,84.097%
+train_accu_best = 37.778%
+test_accu_best = 65.000%
+NN_cross_subject_4class_fine_Net45_multiTask：yzg 训练集容量 180 训练完成
+NN_cross_subject_4class_fine_Net45_multiTask：yzg : 测试集准确率  0.650%
